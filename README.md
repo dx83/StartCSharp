@@ -7,7 +7,14 @@
 - [1장 닷넷 프레임워크](#Chapter01)
 
 ---
-ㅁ   
+[link keyword][id]
+
+[id]: URL "Optional Title here"
+
+// code
+Link: [Google][googlelink]
+
+[googlelink]: https://google.com "Go google"
 ㅁ   
 ㅁ   
 ㅁ   
