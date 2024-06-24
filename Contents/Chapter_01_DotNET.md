@@ -12,5 +12,11 @@
 - C#, Visual Basic,  .NET, F#, C++/CLI
 - COBOL, Lisp, Python, Ruby 등의 언어도 중간 언어로 산출할 수 있는 버전 존재
 
-### 공통 중간 언어 (CIL : Common Intermediate Language) : 
+### 공통 중간 언어 (CIL : Common Intermediate Language)
+- 닷넷의 CLR에서는 중간 언어를 CIL이라고 하며 보통은 줄여서 IL 코드라고 한다.
+- CPU에 독립적인 결과물로서 모든 닷넷 호환 언어는 소스코드를 IL 코드로 컴파일한다.
+- CLR이 실행될 때 IL 코드를 CPU의 기계어로 최종 번역한다.
+- IL 코드는 그 자체로 프로그래밍 언어 문법을 가지며 ilasm.exe라는 컴파일을 가지고 있다.
+
+
 
