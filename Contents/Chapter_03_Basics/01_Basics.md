@@ -93,3 +93,6 @@ Console.WriteLine(isNumeric);  // False 출력
 ****
 <br>
 
+## 추가로 알아 볼것
+- 유니코드, UTF-8, UTF-16, UTF-32
+- 자주 사용하는 이스케이프 시퀀스
