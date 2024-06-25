@@ -9,8 +9,8 @@
 ---
    
 ## 1장 닷넷 프레임워크
-- [닷넷 프레임워크와 관련된 용어 정의](./Contents/Chapter_01_DotNET/01_DotNET.md)
-- [닷넷 프레임워크 개념](./Contents/Chapter_01_DotNET/02_DotNET.md)
-- [닷네 코어, 닷넷 5/6, C# 언어 활용](./Contents/Chapter_01_DotNET/03_DotNET.md)
+1. [닷넷 프레임워크와 관련된 용어 정의](./Contents/Chapter_01_DotNET/01_DotNET.md)
+2. [닷넷 프레임워크 개념](./Contents/Chapter_01_DotNET/02_DotNET.md)
+3. [닷네 코어, 닷넷 5/6, C# 언어 활용](./Contents/Chapter_01_DotNET/03_DotNET.md)
 ---
 
