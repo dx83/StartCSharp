@@ -14,3 +14,7 @@
 3. [닷네 코어, 닷넷 5/6, C# 언어 활용](./Contents/Chapter_01_DotNET/03_DotNET.md)
 ---
 
+## 3장 C# 기초
+1. [기본 자료형](./Contents/Chapter_03_Basics/01_Basics.md)
+---
+
