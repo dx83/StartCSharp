@@ -69,6 +69,3 @@ n2 = 100;     // 값 나중에 부여
 - string, class, object
 ****
 <br>
-
-
-
