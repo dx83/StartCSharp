@@ -2,7 +2,7 @@
 > 형변환 : 캐스팅(casting)    
 > 형변환 연산자 (cast operator) : ()
 
-#### 암시적 형변환 (Implicit conversion) : 범위가 작은 데이터 타입에서 더 큰 범위의 타입으로 형변환하는 것
+#### 암시적 형변환 (Implicit conversion) : 범위가 작은 데이터 타입에서 더 큰 범위의 타입으로 형변환
 ```csharp
 byte b = 250;     // short보다 작은 데이터 타입
 short s = b;      // 암시적 형변환
