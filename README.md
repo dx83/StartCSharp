@@ -19,4 +19,4 @@
 1. [기본 자료형](./Contents/Chapter_03_Basics/01_Basics.md)
 ---
 
-[TEST](./Contents/Chapter_03_Basics/01_Basics.md#실수형-기본-타입)
+[TEST]([./Contents/Chapter_03_Basics/01_Basics.md#실수형-기본-타입](https://github.com/dx83/StartCSharp/blob/main/Contents/Chapter_03_Basics/01_Basics.md#%EC%8B%A4%EC%88%98%ED%98%95-%EA%B8%B0%EB%B3%B8-%ED%83%80%EC%9E%85))
