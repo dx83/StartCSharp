@@ -19,4 +19,3 @@
 1. [기본 자료형](./Contents/Chapter_03_Basics/01_Basics.md)
 ---
 
-[TEST](./Contents/Chapter_03_Basics/01_Basics.md#불린(boolean)형-기본타입)
