@@ -20,6 +20,7 @@
 2. [형변환](./Contents/Chapter_03_Basics/02_Type_Conversion.md)
 3. [기본 문법 : 예약어, 식별자, 리터럴](./Contents/Chapter_03_Basics/03_Basics.md)
 4. [기본 문법 : 변수](./Contents/Chapter_03_Basics/04_Basics.md)
-5. [기본 문법 : ](./Contents/Chapter_03_Basics/05_Basics.md)
+5. [기본 문법 : 초기화](./Contents/Chapter_03_Basics/05_Basics.md)
+6. [기본 문법 : 상수, 연산자, 문장부호](./Contents/Chapter_03_Basics/06_Basics.md)
 ---
 
