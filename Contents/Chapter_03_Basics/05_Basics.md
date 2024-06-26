@@ -75,3 +75,24 @@ const int n = 5 * 100 / 2;       // 이러한 단순 수식은 컴파일러가 �
 <br>
 
 ### 6) 연산자, 문장 부호
+```csharp
+using System;                              // ;
+
+namespace ConsoleApp1
+{                                          // {
+    class Program
+    {                                      // {
+        static void Main(string[] args)    // ( [ ] )
+        {                                  // {
+            string text = "Hello World";   // = ;
+            Console.WriteLine(text);       // ( ) ;
+        }                                  // }
+    }                                      // }
+}                                          // }
+```
+- `;` : 세미콜론, 한 구문의 끝을 컴파일러에게 알리는 문자 부호
+- `=` : 대입 연산자 (assignment operator)
+- `+,-*,/` : 산술 연산자 (arithmetic operator)
+
+****
+<br>
