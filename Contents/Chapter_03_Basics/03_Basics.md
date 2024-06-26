@@ -39,8 +39,8 @@ namespace ConsoleApp1                           // ConsoleApp1
   - 예약어를 식별자로 사용할 수 없다.
   
   ```csharp
-  string @bool = "true";  // 단, '@' 문자를 접두사로 붙여 사용 가능
-  string _bool = "TRUE";  // '_' 이것도 가능
+  string @bool = "true";        // 단, '@' 문자를 접두사로 붙여 사용 가능
+  string _bool = "TRUE";        // '_' 도 가능
   ```
   
   - 흔한 경우는 아니지만 이스케이프 시퀀스로도 식별자를 사용할 수 있다.
@@ -50,6 +50,21 @@ namespace ConsoleApp1                           // ConsoleApp1
   string @bool = "true"         // \u0062ool 와 동일해서 같이 정의한 경우 컴파일 에러
   Console.WriteLine(\u0062ool); // true 출력
   ```
+
+****
+<br>
+
+### 3) 리터럴 (literal)
+> 소스코드에 포함된 값
+
+▼ 주석 부분의 값이 모두 리터럴
+
+```csharp
+string text = "Hello World";  // Hello World
+int n = 5;                    // 5
+char ch = 'N';                // N
+bool result = true;           // true
+```
 
 ****
 <br>
