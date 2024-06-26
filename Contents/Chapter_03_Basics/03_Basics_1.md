@@ -1,6 +1,6 @@
 ## 3. 기본 문법 요소
 ### 1) 예약어, 키워드
-> 예약어 (reserved word) 또는 키워드(keyword)는 C# 언어에서 문법을 표현하기 위해 미리 예약된 단어를 의
+> 예약어 (reserved word) 또는 키워드(keyword)는 C# 언어에서 문법을 표현하기 위해 미리 예약된 단어를 의미
 - 현재까지 배운것 중에서 예약어
   - sbyte, byte, short, ushort, int, uint, long, ulong
   - float, double, decimal
