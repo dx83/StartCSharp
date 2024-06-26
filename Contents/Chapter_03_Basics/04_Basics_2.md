@@ -37,3 +37,23 @@
 ****
 <br>
 
+## 값 형식 (Value Type)을 가리키는 변수
+> `값` 자체가 스택 영역에 할당되고 변수는 그 메모리를 가리키는 프로그램 내의 식별자다.
+
+<img src="./Images/3_3.png" width="600"/>
+
+- sbyte, byte, char, short, ushort, int, uint, long, ulong, float, double, decimal, bool
+****
+<br>
+
+## 참조 형식 (Reference Type)을 가리키는 변수
+> `값`을 담기 위해 별도로 힙 영역의 메모리를 할당하고, 스택의 변수 값은 다시 힙의 데이터 주소를 가리키게 된다.
+
+<img src="./Images/3_4.png" width="600"/>
+
+- string, class, object
+****
+<br>
+
+
+
