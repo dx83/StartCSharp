@@ -46,6 +46,7 @@ int[,,] arr3 = new int[2, 3, 4]
 <br>
 
 ### 2) 가변 배열 (jagged array)
+> 다차원 배열이 콤마를 이용해 차수를 구분하는 반면, 가변 배열은 각 차수마다 대괄호를 사용한다.
 
 ```csharp
 int[][] arr = new int[5][];  // 2차원 가변 배열
@@ -55,10 +56,16 @@ arr[2] = new int[8];
 arr[3] = new int[3];
 arr[4] = new int[5];
 ```
+<br>
 
 ▼ 가변 배열의 시각화
 
 <img src="./Images/3_12.png" width="800"/>
+<br>
+
+```
+m * n 의 고정 배열이 유지보수 측면에서 편하다.
+```
 
 ****
 <br>
