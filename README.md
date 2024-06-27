@@ -24,5 +24,6 @@
 6. [기본 문법 : 상수, 연산자, 문장부호](./Contents/Chapter_03_Basics/06_Basics.md)
 7. [배열 : 기본](./Contents/Chapter_03_Basics/07_Array.md)
 8. [배열 : 다차원, 가변](./Contents/Chapter_03_Basics/08_Array.md)
+9. [제어문 : 관계 연산자, 논리 연산자](./Contents/Chapter_03_Basics/09_Statements.md)
 ---
 
