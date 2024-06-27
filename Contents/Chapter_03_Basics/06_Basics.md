@@ -9,6 +9,7 @@ const string text = "Hello";
 
 result = true;  // 컴파일 에러, const 상수 값은 바꿀 수 없다.
 ```
+<br>
 
 ```csharp
 int n = Math.Max(0, 5);          // 프로그램을 실행할 때 n의 값이 결정 => n = 5
@@ -44,6 +45,7 @@ namespace ConsoleApp1
 - `;` : 세미콜론, 한 구문의 끝을 컴파일러에게 알리는 문자 부호
 - `=` : 대입 연산자 (assignment operator)
 - `+,-*,/` : 산술 연산자 (arithmetic operator)
+<br>
 
 ▼ `%` 나머지 연산자
 ```csharp
