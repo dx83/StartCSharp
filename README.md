@@ -23,5 +23,6 @@
 5. [기본 문법 : 초기화](./Contents/Chapter_03_Basics/05_Basics.md)
 6. [기본 문법 : 상수, 연산자, 문장부호](./Contents/Chapter_03_Basics/06_Basics.md)
 7. [배열 : 기본](./Contents/Chapter_03_Basics/07_Array.md)
+8. [배열 : 다차원, 가변](./Contents/Chapter_03_Basics/08_Array.md)
 ---
 
