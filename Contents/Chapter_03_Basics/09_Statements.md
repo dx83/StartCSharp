@@ -1,5 +1,5 @@
 ## 5. 제어문
-### 1) 선택문 (selection statements)
+### 1) 선택문 (selection statement)
 > if, switch
 <br>
 
