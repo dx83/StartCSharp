@@ -48,47 +48,23 @@ Console.WriteLine(ch2);   // e 출력
 ```
 <br>
 
-****
-<br>
-
-### ) 
-> 
-- 
-****
-<br>
-
-### ) 
-> 
-
-<br>
-▼ 
-
+▼ 한 번 정해진 배열의 크기는 고정된다.
 ```csharp
+int[] students = new int[60];
+students[0] = 50;
+Console.WriteLine(students[0]);
 
+students = new int[120];
+// students 참조 변수는 새로 할당된 메모리(int[120])를 가리킴
+// 이전 할당된 메모리(int[60])는 GC가 해제할 때까지 남아 있음!!
+Console.WriteLine(students[0]); // 0 출력
 ```
 <br>
 
-- 
-  
-  ```csharp
-  
-  ```
-  
-  - 
-
-  ```csharp
-  
-  ```
-
-****
-<br>
-
-### ) 
-> 
-
-▼ 
-
-```csharp
+```
+배열 선언시 기본적으로 모든 값은 같은 타입에 따른 초기화 값을 가지게 된다.    
+"값 형식"의 배열이라면 기본값으로 0에 준하는 값을 가지고,    
+"참조 형식"의 배열이라면 개별 요소가 null로 초기화 된다.
 ```
 
 ****
