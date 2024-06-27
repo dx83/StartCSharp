@@ -64,13 +64,13 @@ string result = (value % 2 == 0) ? "짝수" : "홀수"; // "홀수" 대입
 ```csharp
 switch (인스턴스)
 {
-    case 상수식1:
+    case 상수식 1:
         구문;
         break;
 
     ----- [임의의 case 문 반복] -----
 
-    case 상수식n:
+    case 상수식 n:
         구문;
         break;
 
@@ -82,6 +82,51 @@ switch (인스턴스)
 - 실행시 결정되는 `인스턴스`의 값과 컴파일 시 결정되는 ***case***의 `상수식` 결과값이 일치하는 경우 해당 ***case***에 속한 구문을 실행한다.
 - 나열된 ***case***의 `상수식`에 일치하는 값이 없다면 ***default***에 지정된 구문의 코드를 실행한다.
 - 인스턴스로 지정 가능한 타입 : 정수형, 문자형, 불린형, 열거형
+<br>
+
+```csharp
+string text = "C#";
+
+switch (text)
+{
+    case "C#":        // break 문 생략
+    case "VB.NET":
+        Console.WriteLine(".NET 호환 언어");
+        break;
+
+    case "Java":
+        Console.WriteLine("JVM 언어");
+        break;
+
+    default:
+        Console.WriteLine("알 수 없음");
+        break;
+}
+// ".NET 호환 언어" 출력
+```
+- ***case*** (***default*** 포함) 문에 ***break***는 반드시 포함되어야 한다. (없으면 컴파일 에러)
+- ***case*** 문에 실행해야할 코드가 없다면 ***break***를 생략할 수 있다.
+- 첫번째 ***case*** 문에 ***break***가 없기 때문에 조건이 그다음 ***case*** 문과 합쳐져서 실행돼야 할 구문을 공유하고 있다.
+
+▼ 위 코드를 if 문으로 표현
+```csharp
+string text = "C#";
+if (text == "C#" || text == "VB.NET")
+{
+    Console.WriteLine(".NET 호환 언어");
+}
+else if (text == "Java")
+{
+    Console.WriteLine("JVM 언어");
+}
+else
+{
+    Console.WriteLine("알 수 없음");
+}
+```
+<br>
+
+> default 구문은 생략이 가능하다.
 
 ****
 <br>
