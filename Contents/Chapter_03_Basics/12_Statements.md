@@ -10,7 +10,7 @@ for (초기화; 조건식; 반복식) 구문;
 <br>
 
 ```csharp
-for (int n = 1; n <= 9; n++)    // 10이되면 for 문 벗어남
+for (int n = 1; n <= 9; n++)    // 10이 되면 for 문 벗어남
 {
     Console.WriteLine(n);
 }
@@ -38,6 +38,20 @@ for (;;)            // 초기화, 조건식, 반복식 구문 모두 생략
 ```
 - 초기화, 조건식, 반복식을 생략할 수 있지만, 세미콜론은 반드시 있어야 한다.
 <br>
+
+▼ 중첩 루프 (nested loop) : for 루프 안에 또 다시 for 루프가 있는 경
+```csharp
+// 구구단
+for (int x = 2; x < 10; x++)
+    for (int y = 1; y < 10; y++)
+        Console.WriteLine(x + " * " + y + " = " + (x * y));
+```
+****
+<br>
+
+### foreach 문
+
+
 
 ****
 <br>
