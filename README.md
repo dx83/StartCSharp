@@ -1,6 +1,5 @@
 # StartCSharp
 시작하세요! C# - 필요한 내용 정리
----
 <br>
 
 ## 목차
@@ -8,14 +7,12 @@
 - [3장 C# 기초](#3장-CSharp-기초)
 - [4장 객체지향 문법](#4장-객체지향-문법)
 ---
-<br>
 
 ## 1장 닷넷 프레임워크
 1. [닷넷 프레임워크와 관련된 용어 정의](./Contents/Chapter_01_DotNET/01_DotNET.md)
 2. [닷넷 프레임워크 개념](./Contents/Chapter_01_DotNET/02_DotNET.md)
 3. [닷네 코어, 닷넷 5/6, C# 언어 활용](./Contents/Chapter_01_DotNET/03_DotNET.md)
 ---
-<br>
 
 ## 3장 CSharp 기초
 1. [기본 자료형](./Contents/Chapter_03_Basics/01_Data_Type.md)
@@ -33,7 +30,6 @@
 13. [제어문 : while 문, do/while 문](./Contents/Chapter_03_Basics/13_Statements.md)
 14. [제어문 : 점프문 break, continue, goto](./Contents/Chapter_03_Basics/14_Statements.md)
 ---
-<br>
 
 ## 4장 객체지향 문법
 
