@@ -29,6 +29,6 @@
 11. [제어문 : 증감 연산자, 복합 대입 연산자](./Contents/Chapter_03_Basics/11_Statements.md)
 12. [제어문 : for 문, foreach 문](./Contents/Chapter_03_Basics/12_Statements.md)
 13. [제어문 : while 문, do/while 문](./Contents/Chapter_03_Basics/13_Statements.md)
-14. [제어문 : 점프문](./Contents/Chapter_03_Basics/14_Statements.md)
+14. [제어문 : 점프문 break, continue, goto](./Contents/Chapter_03_Basics/14_Statements.md)
 ---
 
