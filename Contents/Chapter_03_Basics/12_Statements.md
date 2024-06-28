@@ -50,8 +50,26 @@ for (int x = 2; x < 10; x++)
 <br>
 
 ### foreach 문
+▼ foreach 문 문법
+```csharp
+for (표현식요소의자료형 변수명 in 표현식)
+    구문;
 
+for (표현식요소의자료형 변수명 in 표현식) 구문;
+```
+- 표현식에 올 수 있는 자료형 : 배열, 컬렉션
+- 요소 수만큼 구문이 반복되며, 각 반복마다 해당 요소의 값을 `변수명`에 넣은 후 구문을 실행한다.
+<br>
 
+```csharp
+int[] arr = new int[] { 1, 2, 3, 4, 5 };
+
+foreach (int elem in arr)
+{
+    Console.WriteLine(elem);
+}
+```
+- foreach 문은 in 다음에 오는 배열을 처음부터 끝까지 순회하면서 개별 요소를 `int elem`으로 선언된 변수에 넣어 반복문 구문 내에서 해당 변수를 사용할 수 있게 해준다.
 
 ****
 <br>
