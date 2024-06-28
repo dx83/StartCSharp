@@ -27,6 +27,7 @@
 9. [제어문 : 관계 연산자, 논리 연산자](./Contents/Chapter_03_Basics/09_Statements.md)
 10. [제어문 : 선택문, if 문, switch 문](./Contents/Chapter_03_Basics/10_Statements.md)
 11. [제어문 : 증감 연산자, 복합 대입 연산자](./Contents/Chapter_03_Basics/11_Statements.md)
-12. [제어문 : ](./Contents/Chapter_03_Basics/12_Statements.md)
+12. [제어문 : for 문, foreach 문](./Contents/Chapter_03_Basics/12_Statements.md)
+13. [제어문 : while 문, do/while 문](./Contents/Chapter_03_Basics/13_Statements.md)
 ---
 
