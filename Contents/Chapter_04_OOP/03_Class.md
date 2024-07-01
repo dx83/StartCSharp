@@ -26,8 +26,15 @@
 int absoluteValue = abs(-5);            // 반환값 5
 int maxValue = max(absoluteValue, 10);  // 반환값은 10
 ```
+<br>
+
 ```
-클래스는 데이터를 속성으로, 코드를 메서드로 추상화한 개념이다.
+타입(class)  = 속성 (field) + 행위 (method)
+```
+- 클래스는 데이터를 속성으로, 코드를 메서드로 추상화한 개념이다.
+
+```
+메서드는 객체에 속한 함수이며, 멤버 메서드 (member method)라고도 불린다.
 ```
 
 ****
