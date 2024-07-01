@@ -26,10 +26,6 @@ class 클래스_명
 
 - 정의된 타입을 사용하려면 new 연산자로 메모리 할당을 해야 한다.
 
-````
-C# 프로그램은 모든 것이 타입으로 정의돼 있다는 특징이 있다.
-````
-
 ****
 <br>
 
@@ -44,6 +40,36 @@ C# 프로그램은 모든 것이 타입으로 정의돼 있다는 특징이 있�
 ````
 필드는 객채에 속한 변수이고, 멤버 변수(member variable)라고도 한다.
 ````
+
+****
+<br>
+
+```csharp
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // new 연산자로 메모리 할당
+            Book gulliver = new Book();
+        }
+    }
+
+    class Book
+    {
+        // 속성 정의
+        string Title;
+        decimal ISBN13;
+        string Contents;
+        string Author;
+        int PageCount;
+    }
+}
+```
+- `class Program` : C# 프로그램은 모든 것이 타입으로 정의돼 있다는 특징이 있다.
 
 ****
 <br>
