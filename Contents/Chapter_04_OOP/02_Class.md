@@ -28,7 +28,7 @@ void 메서드명([타입명] [매개변수명], ......)
 ***
 <br>
 
-### 인자 (argument)
+### 인자 (argument), 반환 (return)
 
 <img src="./Images/4_4.png" width="500"/>
 
@@ -75,8 +75,6 @@ namespace ConsoleApp1
 }
 ```
 - 타입만 일치한다면 어떤 표현식이든 메서드의 인자로 전달할 수 있다.
-
-****
 <br>
 
 ▼ return 문은 값을 반환하는 목적 말고도 접프 구문의 역할도 수행한다.
