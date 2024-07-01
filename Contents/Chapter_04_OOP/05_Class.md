@@ -23,7 +23,8 @@ class Program
 ****
 <br>
 
-
+### 정적 필드 (static field)
+> 
 
 ****
 <br>
