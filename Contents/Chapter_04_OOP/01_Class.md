@@ -55,6 +55,18 @@ namespace ConsoleApp1
         {
             // new 연산자로 메모리 할당
             Book gulliver = new Book();
+
+            gulliver.Author = "Jonathan Swift";
+            gulliver.ISBN13 = 9788983920775m;
+            gulliver.Title = "걸리버 여행기";
+            gulliver.Contents = "...";
+            gulliver.PageCount = 384;
+
+            string author = gulliver.Author;
+            decimal isbn13 = gulliver.ISBN13;
+            string title = gulliver.Title;
+            string contents = gulliver.Contents;
+            int pageCount = gulliver.PageCount;
         }
     }
 
