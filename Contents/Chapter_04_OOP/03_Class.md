@@ -26,6 +26,7 @@
 int absoluteValue = abs(-5);            // 반환값 5
 int maxValue = max(absoluteValue, 10);  // 반환값은 10
 ```
+****
 <br>
 
 ```
