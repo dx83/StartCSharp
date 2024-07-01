@@ -33,5 +33,6 @@
 ## 4장 객체지향 문법
 1. [클래스 : 객체, 필드](./Contents/Chapter_04_OOP/01_Class.md)
 2. [클래스 : 메서드](./Contents/Chapter_04_OOP/02_Class.md)
-3. [클래스 : 메서드, 생성자, 종료자](./Contents/Chapter_04_OOP/03_Class.md)
+3. [클래스 : 메서드(중복 코드 제거, 추상화](./Contents/Chapter_04_OOP/03_Class.md)
+4. [클래스 : 생성자, 종료자](./Contents/Chapter_04_OOP/04_Class.md)
 ---
