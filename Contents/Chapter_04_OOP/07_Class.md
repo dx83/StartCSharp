@@ -44,7 +44,7 @@ class Person
 ```
 <br>
 
-▼ 실행 예제
+▼ 정적 생성자는 한 번만 실행됨
 ```csharp
 class Person
 {
