@@ -58,7 +58,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Communication.Http http = new Communication.Http();
-            Disk.FileSystem.File file = new Disk.FileSystem();
+            Disk.FileSystem.File file = new Disk.FileSystem.File();
         }
     }
 }
@@ -67,8 +67,43 @@ namespace ConsoleApp1
 
 ▼ using 예약어
 ```csharp
+using Communication;
+using Disk.FileSystem;
 
+// ---- 생략 ----- "▼ 클래스 분류" 참고
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Http http = new Http();
+            File file = new File();
+        }
+    }
+}
 ```
+- using 문은 반드시 파일의 첫 부분에 있어야 한다.
+- 어떤 코드도 using 문 앞에 와서는 안된다.
+<br>
+
+▼ System
+```csharp
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World");
+        }
+    }
+}
+```
+- `System.Console.WriteLine` : Console 클래스가 System 네임스페이스 내부에 정의
 
 ****
 <br>
