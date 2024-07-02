@@ -44,6 +44,7 @@ class Person
 ```
 <br>
 
+▼ 실행 예제
 ```csharp
 class Person
 {
