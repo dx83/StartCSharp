@@ -35,5 +35,6 @@
 2. [클래스 : 메서드](./Contents/Chapter_04_OOP/02_Class.md)
 3. [클래스 : 메서드(중복 코드 제거, 추상화)](./Contents/Chapter_04_OOP/03_Class.md)
 4. [클래스 : 생성자, 종료자, GC](./Contents/Chapter_04_OOP/04_Class.md)
-5. [클래스 : 인스턴스, 정적 필드](./Contents/Chapter_04_OOP/05_Class.md)
+5. [클래스 : 인스턴스 멤버, 정적 필드](./Contents/Chapter_04_OOP/05_Class.md)
+6. [클래스 : ](./Contents/Chapter_04_OOP/06_Class.md)
 ---
