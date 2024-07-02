@@ -52,6 +52,49 @@ class Program
 ```
 이 규칙을 만족하는 메서드를 정의하면 C# 컴파일러는 자동으로 그 메서드를 시작점으로 선택해 EXE 파일을 생성한다.
 ```
+<br>
+
+▼ 반환값은 대개 EXE 프로그램의 실행 결과에 대한 오류 여부를 판단하는 데 사용된다.
+```csharp
+class Program
+{
+    static int Main(string[] args)
+    {
+        return 0;
+    }
+}
+```
+```
+C:\temp> ConsoleApp1.exe
+
+C:\temp> echo %ERRORLEVEL%
+0
+```
+- Main 메서드에서 0 이외의 다른 값을 반환하면 `%ERRORLEVEL%` 값 역시 그에 따라 바뀐다.
+- 일반적으로 프로그램이 정상적으로 실행돼 종료하면 0을 반환하고, 오류가 발생한 경우에는 오류의 종류에 따라 숫자 값을 정해서 반환한다.
+<br>
+
+▼ Main 메서드의 인자로 허용되는 string 배열
+```csharp
+class Program
+{
+    static void Main(string[] args)
+    {
+        if (args.Length < 2)
+        {
+            return;
+        }
+
+        Console.WriteLine(args[0]);
+        Console.WriteLine(args[1]);
+    }
+}
+```
+```
+c:\temp> ConsoleApp1.exe Hello World
+Hello
+World
+```
 
 ****
 <br>
