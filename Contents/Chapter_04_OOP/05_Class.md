@@ -59,7 +59,7 @@ class Program
 
 ▼ 정적 필드와 인스턴스 필드의 메모리 표현
 
-<img src="./Images/4_5.png" width="500"/>
+<img src="./Images/4_5.png" width="600"/>
 <br>
 
 ▼ 클래스의 인스턴스를 단 하나만 만드는 예제
