@@ -1,4 +1,4 @@
-### 5) 정적 멤버, 인스턴스 멤버
+### 5) 인스턴스 멤버, 정적 멤버
 > 인스턴스 (instance)
 > - 어떤 타입을 실체화한 객체
 > - new 연산자를 거쳐서 메모리에 할당된 객체
@@ -24,7 +24,37 @@ class Program
 <br>
 
 ### 정적 필드 (static field)
-> 
+> 인스턴스 필드는 new로 할당받은 객체마다 고유하게 메모리를 확보하기 때문에 클래스 전역적으로 값이 유지되지 않는다.    
+> 클래스 단위의 필드를 정의하는 것을 정적 필드라고 한다.
+
+```csharp
+class Person
+{
+    public static int CountOfInstance;  // static 예약어로 정적 필드 정의
+    public string _name;                // 인스턴스 필드
+
+    public Person(string name)
+    {
+        CountOfInstance++;
+        _name = name;
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine(Person.CountOfInstance);  // 0 출력
+
+        Person person1 = new Person("홍길동");
+        Person person2 = new Person("홍길순");
+
+        Console.WriteLine(Person.CountOfInstance);  // 2 출력
+    }
+}
+```
+- static 예약어 : 정적 필드 정의
+- [클래스명].[정적필드] 형태로 접근
 
 ****
 <br>
