@@ -39,5 +39,6 @@
 6. [클래스 : 정적 메서드, Main 메서드](./Contents/Chapter_04_OOP/06_Class.md)
 7. [클래스 : 정적 생성자](./Contents/Chapter_04_OOP/07_Class.md)
 8. [클래스 : 네임스페이스](./Contents/Chapter_04_OOP/08_Class.md)
-9. [캡슐화 : ](./Contents/Chapter_04_OOP/09_Encapsulation.md)
+9. [캡슐화 : 접근 제한자, 정보 은닉](./Contents/Chapter_04_OOP/09_Encapsulation.md)
+10. [캡슐화 : 프로퍼티](./Contents/Chapter_04_OOP/10_Encapsulation.md)
 ---
