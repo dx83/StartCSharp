@@ -35,7 +35,7 @@ class Circle
 
 class Program
 {
-    public static void Main()
+    static void Main(string[] args)
     {
         Circle circle = new Circle();
         circle.Pi = 3.14159;           // 쓰기
