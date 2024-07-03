@@ -42,4 +42,5 @@
 9. [캡슐화 : 접근 제한자, 정보 은닉](./Contents/Chapter_04_OOP/09_Encapsulation.md)
 10. [캡슐화 : 프로퍼티](./Contents/Chapter_04_OOP/10_Encapsulation.md)
 11. [상속 : 기본 개념](./Contents/Chapter_04_OOP/11_Inheritance.md)
+12. [상속 : ](./Contents/Chapter_04_OOP/12_Inheritance.md)
 ---
