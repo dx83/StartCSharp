@@ -1,5 +1,7 @@
 > 모든 클래스는 object를 상속받기 때문에 object가 가진 메서드를 제공하게 된다.    
 > object의 대표적인 4가지 메서드
+****
+<br>
 
 ### ToString
 > 해당 인스턴스가 속한 클래스의 전체 이름 (FQDN)을 반환한다.    
@@ -25,6 +27,43 @@ namespace ConsoleApp1
         }
     }
 }
+```
+
+****
+<br>
+
+### GetType
+> class로 타입을 정의하면 내부적으로 해당 class 타입의 정보를 가지고 있는 System.Type의 인스턴스를 보유하게 되고, 그 인스턴스를 GetType 메서드를 통해 제공된다.
+<br>
+
+▼ Type 클래스의 프로퍼티 호출
+```csharp
+Computer computer = new Computer();
+Type type = computer.GetType();
+
+Console.WriteLine(type.FullName);   // ConsoleApp1.Program+Computer 출력
+Console.WriteLine(type.IsClass);    // True 출력
+Console.WriteLine(type.IsArray);    // False 출력
+```
+<br>
+
+▼ GetType 메서드로 클래스에 대한 타입의 전체 이름 반환
+```csharp
+int n = 5;
+string txt = "text";
+
+Type intType = n.GetType();
+
+Console.WriteLine(intType.FullName);          // System.Int32
+Console.WriteLine(txt.GetType().FullName);    // System.String
+```
+<br>
+
+▼ typeof 예약어 : 인자로 Type 그 자체를 받아서 인자의 표시된 타입을 반환합니다.
+```csharp
+Type type = typeof(double);
+Console.WriteLine(type.FullName);            // System.Double
+Console.WriteLine(typeof(short).FullName);   // System.Int16
 ```
 
 ****
