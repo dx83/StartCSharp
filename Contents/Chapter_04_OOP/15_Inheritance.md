@@ -39,12 +39,26 @@ class Program
     }
 }
 ```
+- 참조 형식의 경우 힙에 할당된 데이터 주소를 가리키고 있는 스택 변수의 값을 비교한다.
 <br>
-
-▼ 
 
 <img src="./Images/4_10.png" width="700"/>
 
+<br>
+
+▼ string 참조 타압의 Equals 재정의
+```csharp
+string txt1 = new string(new char[] { 't', 'e', 'x', 't' });
+string txt2 = new string(new char[] { 't', 'e', 'x', 't' });
+
+Console.WriteLine(txt1.Equals(txt2));   // True 출력
+```
+
+****
+<br>
+
+### GetHashCode
+> 
 
 ****
 <br>
