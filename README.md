@@ -44,5 +44,6 @@
 11. [상속 : 기본 개념](./Contents/Chapter_04_OOP/11_Inheritance.md)
 12. [상속 : 형변환](./Contents/Chapter_04_OOP/12_Inheritance.md)
 13. [상속 : as/is 연산자, System.Object](./Contents/Chapter_04_OOP/13_Inheritance.md)
-14. [상속 : ](./Contents/Chapter_04_OOP/14_Inheritance.md)
+14. [상속 : ToString, GetType, typeof](./Contents/Chapter_04_OOP/14_Inheritance.md)
+15. [상속 : ](./Contents/Chapter_04_OOP/15_Inheritance.md)
 ---
