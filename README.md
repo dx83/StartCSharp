@@ -41,4 +41,5 @@
 8. [클래스 : 네임스페이스](./Contents/Chapter_04_OOP/08_Class.md)
 9. [캡슐화 : 접근 제한자, 정보 은닉](./Contents/Chapter_04_OOP/09_Encapsulation.md)
 10. [캡슐화 : 프로퍼티](./Contents/Chapter_04_OOP/10_Encapsulation.md)
+11. [상속 : 기본 개념](./Contents/Chapter_04_OOP/11_Inheritance.md)
 ---
