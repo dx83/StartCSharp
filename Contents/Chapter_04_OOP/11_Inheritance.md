@@ -68,7 +68,7 @@ public class Notebook : Computer
 ```
 <br>
 
-▼ sealed : 상속 제한
+▼ sealed 예약어 : 상속 제한
 ```csharp
 sealed class Pen
 {
