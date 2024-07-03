@@ -78,7 +78,19 @@ public class ElectricPen : Pen  // 컴파일 에러
 {
 }
 ```
+<br>
 
+
+▼ C#에서는 단일 상속 (single inheritance)만 지원한다.
+```csharp
+class Computer {}
+class Monitor {}
+
+class Notebook : Computer, Monitor  // 컴파일 에러
+{
+}
+```
+- C#은 `계층 상속`은 가능하지만 동시에 둘 이상의 부모 클래스로부터 다중 상속 (multiple inheritance)은 허용하지 않는다.
 
 ****
 <br>
