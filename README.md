@@ -49,5 +49,6 @@
 16. [상속 : System.Array](./Contents/Chapter_04_OOP/16_Inheritance.md)
 17. [상속 : this](./Contents/Chapter_04_OOP/17_Inheritance.md)
 18. [상속 : base](./Contents/Chapter_04_OOP/18_Inheritance.md)
-19. [다형성 : ](./Contents/Chapter_04_OOP/19_Polymorphism.md)
+19. [다형성 : 메서드 오버라이드](./Contents/Chapter_04_OOP/19_Polymorphism.md)
+20. [다형성 : ](./Contents/Chapter_04_OOP/20_Polymorphism.md)
 ---
