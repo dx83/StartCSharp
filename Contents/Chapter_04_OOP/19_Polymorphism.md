@@ -60,7 +60,7 @@ static void Main(string[] args)
     m1.Move();      // 이동한다. => 원하는 동작이 아님
 }
 ```
-- mm.Move() : mm에 Lion 인스턴스가 이동했기 때문에 Lion 클래스의 Move가 호촐되는 것이 의도된 동작이 이다.
+- m1.Move() : mm에 Lion 인스턴스가 이동했기 때문에 Lion 클래스의 Move가 호촐되는 것이 의도된 동작이다.
 
 ▼ virtual, override 예약어 사용
 ```csharp
@@ -107,6 +107,7 @@ static void Main(string[] args)
     m2.Move();      // 두 발로 움직인다.
 }
 ```
+<br>
 
 ▼ new 예약어 : 단순히 자식 클래스에서 동일한 이름의 메서드가 필요한 경우
 ```csharp
@@ -143,6 +144,12 @@ class Human : Mammal
     }
 }
 ```
+<br>
 
+```
+부모와 자식 클래스에서 동일한 이름의 메서드를 사용하려면 2가지 중 하나를 선택해야 한다.
+1 virtual/override : 메서드 오버라이드
+2 new : 자식 클래스에서 단순히 동일한 이름의 메서드가 필요한 경우
+```
 ****
 <br>
