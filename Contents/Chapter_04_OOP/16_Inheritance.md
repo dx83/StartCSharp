@@ -57,6 +57,7 @@ namespace ConsoleApp1
         }
     }
 }
+
 // 출력 결과
 배열의 차원 수: 2
 배열의 요소 수: 4
