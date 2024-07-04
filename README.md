@@ -48,4 +48,5 @@
 15. [상속 : Equals, GetHashCode](./Contents/Chapter_04_OOP/15_Inheritance.md)
 16. [상속 : System.Array](./Contents/Chapter_04_OOP/16_Inheritance.md)
 17. [상속 : this](./Contents/Chapter_04_OOP/17_Inheritance.md)
+18. [상속 : base](./Contents/Chapter_04_OOP/18_Inheritance.md)
 ---
