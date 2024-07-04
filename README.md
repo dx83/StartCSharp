@@ -46,5 +46,6 @@
 13. [상속 : as/is 연산자, System.Object](./Contents/Chapter_04_OOP/13_Inheritance.md)
 14. [상속 : ToString, GetType, typeof](./Contents/Chapter_04_OOP/14_Inheritance.md)
 15. [상속 : Equals, GetHashCode](./Contents/Chapter_04_OOP/15_Inheritance.md)
-16. [상속 : ](./Contents/Chapter_04_OOP/16_Inheritance.md)
+16. [상속 : System.Array](./Contents/Chapter_04_OOP/16_Inheritance.md)
+17. [상속 : this](./Contents/Chapter_04_OOP/17_Inheritance.md)
 ---
