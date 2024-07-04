@@ -100,6 +100,7 @@ class Book
 ```csharp
 Book book = new Book("");
 book.Close();
+
 // C#컴파일러는 위의 코드를 빌드할 떄 자동으로 아래와 같이 변환한다.
 Book book = new Book("");
 book.Close(book);
