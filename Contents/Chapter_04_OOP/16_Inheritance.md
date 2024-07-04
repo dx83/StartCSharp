@@ -32,7 +32,7 @@ namespace ConsoleApp1
 
             for (int i = 0; i < arr.Length; i++)
             {
-                Console.Write(arr.GetValue(i) + ", ");       // GetValue 인스턴스 메서드
+                Console.Write(arr.GetValue(i) + ", ");    // GetValue 인스턴스 메서드
             }
             Console.WriteLine();
             Console.WriteLine();
@@ -47,7 +47,7 @@ namespace ConsoleApp1
             OutputArrayInfo(intArray);
 
             OutputArrayElements("원본 inArray", intArray);
-            Array.Sort(intArray);       // Sort 정적 메서드
+            Array.Sort(intArray);    // Sort 정적 메서드
             OutputArrayElements("Array.Sort 후 intArray", intArray);
 
             int[] copyArray = new int[intArray.Length];
