@@ -3,10 +3,9 @@
 <br> 
 
 ### 1) 메서드 오버라이드 (method override)
-> 
-- 가상 메서드 (virtual method)
-    - virtual 예약어 : 부모 클래스의 메서드에 적용
-    - override 예약어 : 자식 클래스의 메서드에 적용
+> - 가상 메서드 (virtual method)
+>    - virtual 예약어 : 부모 클래스의 메서드에 적용
+>    - override 예약어 : 자식 클래스의 메서드에 적용
 
 ```csharp
 class Mammal
