@@ -30,6 +30,43 @@ public class Notebook : Computer
 <br>
 
 ### objecct 기본 메서드 확장
+▼ object의 기본 메서드 3 가지
+```csharp
+public class Object
+{
+    public virtual bool Equals(object obj);
+    public virtual int GetHashCode();
+    public virtual string ToString();
+}
+```
+<br>
+
+▼ ToString 재정의
+```csharp
+public class Point
+{
+    int x, y;
+
+    public Point(int x, int y)
+    {
+        this.x = x;
+        this.y = y;
+    }
+
+    public override string ToString()
+    {
+        return "X: " + x + "y: " + y;
+    }
+}
+
+// 출력문
+Point pt = new Point(5, 10);
+Console.WriteLine(pt.ToString());    // X: 5, y: 10
+```
+- 로그를 남기거나 디버깅할 때 ToString에서 반환된 결과가 유용하게 쓰일 수 있다.
+<br>
+
+> 특정 객체를 고유하게 식별할 수 있는 값을 `키(key)` 값이라고 한다.
 
 
 
