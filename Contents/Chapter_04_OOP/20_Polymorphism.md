@@ -66,9 +66,58 @@ Console.WriteLine(pt.ToString());    // X: 5, y: 10
 - 로그를 남기거나 디버깅할 때 ToString에서 반환된 결과가 유용하게 쓰일 수 있다.
 <br>
 
-> 특정 객체를 고유하게 식별할 수 있는 값을 `키(key)` 값이라고 한다.
+▼ Equals, GetHashCode 재정의
+```csharp
+class Book
+{
+    decimal isbn13;
+    string title;
+    string contents;
 
+    public Book(decimal isbn13, string title, string contents)
+    {
+        this.isbn13 = isbn13;
+        this.title = title;
+        this.contents = contents;
+    }
 
+    public override bool Equals(object obj)
+    {
+        if (obj == null)
+        {
+            return false;
+        }
+
+        Book book = obj as Book;
+        if (book == null)
+        {
+            return false;
+        }
+
+        return this.isbn13 == book.isbn13;
+    }
+
+    public override int GetHashCode()
+    {
+        return this.isbn13.GetHashCode();
+    }
+}
+// 출력문
+Book book1 = new Book(9788998139018, "리버스 엔지니어링 바이블", "......");
+Book book2 = new Book(9788998139018, "리버스 엔지니어링 바이블", "......");
+Book book3 = new Book(9788992939409, "파이썬 3.6 프로그래밍", "......");
+
+Console.WriteLine("book1 == book2: " + book1.Equals(book2));    // True
+Console.WriteLine("book1 == book3: " + book1.Equals(book3));    // False
+```
+- 책의 고유성이 포함된 `키(key` 속성은 ISBN 이므로 ISBN을 비교대상이 되도록 `Equas`를 재정의 한다.
+- `GetHashcode`는 비교대상이 isbn13 필드 값이기 떄문에 isbn13의 해시 코드를 반환하는 것으로 재정의 한다.
+<br>
+
+```
+특정 객체를 고유하게 식별할 수 있는 값을 `키(key)` 값이라고 한다.    
+해당 객체의 키가 될 요소를 적절하게 찾는다면 Equals와 GetHashCode는 자연스럽게 만들 수 있다.
+```
 
 ****
 <br>
