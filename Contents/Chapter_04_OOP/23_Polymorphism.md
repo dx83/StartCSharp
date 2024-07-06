@@ -1,4 +1,7 @@
 ### 클래스 간의 형변환
+- implicit operator : 암시적 형변환
+- explicit operator : 명시적 형변환
+<br>
 
 ```csharp
 public class Currency
