@@ -13,9 +13,11 @@
   - 사용법은 [생성자 파트](./04_Class.md) 참고
 - 메서드 오버로드
 - 연산자 오버로드 (operator overload)
+
+****
 <br>
 
-▼ 메서드 오버로드
+### 메서드 오버로드
 ```csharp
 // 절댓값을 반환하는 클래스
 class Mathematic
