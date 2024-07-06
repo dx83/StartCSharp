@@ -53,4 +53,5 @@
 20. [다형성 : base를 이용한 메서드 재사용, object 기본 메서드 확장](./Contents/Chapter_04_OOP/20_Polymorphism.md)
 21. [다형성 : 메서드 오버로드](./Contents/Chapter_04_OOP/21_Polymorphism.md)
 22. [다형성 : 연산자 오버로드](./Contents/Chapter_04_OOP/22_Polymorphism.md)
+23. [다형성 : 클래스 간의 형변환](./Contents/Chapter_04_OOP/23_Polymorphism.md)
 ---
