@@ -36,7 +36,7 @@ class Mathematic
     }
 }
 // 메서드 오버로드
-class Methematics  // 메서드명 통일
+class Mathematics  // 메서드명 통일
 {
     public int Abs(int value)
     {
@@ -53,7 +53,13 @@ class Methematics  // 메서드명 통일
         return (value >= 0) ? value : -value;
     }
 }
+// 출력문
+Mathematics math = new Mathematics();
+Console.WriteLine(math.Abs(-5));        // 5
+Console.WriteLine(math.Abs(-10.052));   // 10.052
+Console.WriteLine(math.Abs(20.01m));    // 20.01
 ```
+- `ConsoleWriteLine`도 다양한 타입의 값을 받을 수  있게 정의된 메서드 오버로드의 예다.
 
 ****
 <br>
