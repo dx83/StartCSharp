@@ -5,6 +5,7 @@
 - [1장 닷넷 프레임워크](#1장-닷넷-프레임워크)
 - [3장 C# 기초](#3장-CSharp-기초)
 - [4장 객체지향 문법](#4장-객체지향-문법)
+- [5장](#5장)
 ---
 
 ## 1장 닷넷 프레임워크
@@ -54,4 +55,8 @@
 21. [다형성 : 메서드 오버로드](./Contents/Chapter_04_OOP/21_Polymorphism.md)
 22. [다형성 : 연산자 오버로드](./Contents/Chapter_04_OOP/22_Polymorphism.md)
 23. [다형성 : 클래스 간의 형변환](./Contents/Chapter_04_OOP/23_Polymorphism.md)
+24. [C# 클래스 확장 : ](./Contents/Chapter_04_OOP/24_Advanced.md)
 ---
+
+## 5장 
+```
