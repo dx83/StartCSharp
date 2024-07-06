@@ -1,6 +1,6 @@
 ### 클래스 간의 형변환
 - `implicit operator` : 암시적 형변환
-- `explicit operator` : 명시적 형변환
+- `explicit operator` : 명시적 형변환, 형변환시 반드시 형변환 연산자 `()`를 사용해야 한다.
 <br>
 
 ```csharp
