@@ -110,8 +110,8 @@ Book book3 = new Book(9788992939409, "파이썬 3.6 프로그래밍", "......");
 Console.WriteLine("book1 == book2: " + book1.Equals(book2));    // True
 Console.WriteLine("book1 == book3: " + book1.Equals(book3));    // False
 ```
-- 책의 고유성이 포함된 `키(key` 속성은 ISBN 이므로 ISBN을 비교대상이 되도록 `Equas`를 재정의 한다.
-- `GetHashcode`는 비교대상이 isbn13 필드 값이기 떄문에 isbn13의 해시 코드를 반환하는 것으로 재정의 한다.
+- 책의 고유성이 포함된 `키(key` 속성은 ISBN 이므로 ISBN을 비교대상이 되도록 `Equals`를 재정의 한다.
+- `GetHashCode`는 비교대상이 isbn13 필드 값이기 떄문에 isbn13의 해시 코드를 반환하는 것으로 재정의 한다.
 <br>
 
 ```
