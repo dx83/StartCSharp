@@ -44,6 +44,19 @@ namespace ConsoleApp1
 FuncDelegate cleanFunc = new FuncDelegate(disk.Clean);
 FuncDelegate workFunc = disk.Clean;  // 위와 동일 코드
 ```
+<br>
+
+▼ 메서드 호출    
+```csharp
+Disk disk = new Disk();
+FuncDelegate cleanFunc = disk.Clean;
+
+disk.Clean(null);   // Clean 메서드를 직접 호출
+cleanFunc(null);    // 델리게이트 인스턴스를 통해 Clean 메서드를 호울
+```
+
+****
+<br>
 
 
 
