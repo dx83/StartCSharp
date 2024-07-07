@@ -87,6 +87,7 @@ class Line : DrawingObject  // 추상 클래스를 상속
         Console.WriteLine("Line " + pt1.ToString() + " ~ " + pt2.ToString());
     }
 }
+
 // 출력문
 DrawingObject Line = new Line(new Point(10, 10), new Point(20, 20));
 // 다형성에 따라 Line.Draw가 호출됨
