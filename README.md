@@ -56,7 +56,8 @@
 22. [다형성 : 연산자 오버로드](./Contents/Chapter_04_OOP/22_Polymorphism.md)
 23. [다형성 : 클래스 간의 형변환](./Contents/Chapter_04_OOP/23_Polymorphism.md)
 24. [C# 클래스 확장 : 중첩 클래스, 추상 클래스](./Contents/Chapter_04_OOP/24_MoreGrammar.md)
-25. [C# 클래스 확장 : ](./Contents/Chapter_04_OOP/25_MoreGrammar.md)
+25. [C# 클래스 확장 : 델리게이트 정의, 활용](./Contents/Chapter_04_OOP/25_MoreGrammar.md)
+26. [C# 클래스 확장 : ](./Contents/Chapter_04_OOP/26_MoreGrammar.md)
 ---
 
 ## 5장 
