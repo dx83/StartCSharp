@@ -83,7 +83,22 @@ static void Main(string[] args)
         Console.WriteLine(p[i].Name + ": " + p[i].Age);
     }
 }
-```
+// 출력문
+Anders: 51
+Mads: 62
+Petter: 45
+Scott: 37
 
+Scott: 37
+Petter: 45
+Anders: 51
+Mads: 62
+```
+- object를 사용해 Sort 메서드를 타입에 종속적이지 않게 만들었다.
+- 모든 타입에 대해 SortObject 클래스를 이용해 정렬을 수행할 수 있다.
+
+```
+델리게이트만 전달하는 것으로 코드 재사용 능력을 극대화한 것이다.
+```
 ****
 <br>
