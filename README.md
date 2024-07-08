@@ -4,8 +4,8 @@
 ## 목차
 - [1장 닷넷 프레임워크](#1장-닷넷-프레임워크)
 - [3장 C# 기초](#3장-CSharp-기초)
-- [4장 객체지향 문법 클래스, 상속](#4장-객체지향-문법-클래스,-상속)
-- [4장 객체지향 문법 다형성, 확장](#4장-객체지향-문법-다형성,-확장)
+- [4장 객체지향 문법 클래스 상속](#4장-객체지향-문법-클래스-상속)
+- [4장 객체지향 문법 다형성 확장](#4장-객체지향-문법-다형성-확장)
 - [5장](#5장)
 ---
 
@@ -32,7 +32,7 @@
 14. [제어문 : 점프문 break, continue, goto](./Contents/Chapter_03_Basics/14_Statements.md)
 ---
 
-## 4장 객체지향 문법 클래스, 상속
+## 4장 객체지향 문법 클래스 상속
 1. [클래스 : 객체, 필드](./Contents/Chapter_04_OOP/01_Class.md)
 2. [클래스 : 메서드](./Contents/Chapter_04_OOP/02_Class.md)
 3. [클래스 : 메서드(중복 코드 제거, 추상화)](./Contents/Chapter_04_OOP/03_Class.md)
@@ -53,7 +53,7 @@
 18. [상속 : base](./Contents/Chapter_04_OOP/18_Inheritance.md)
 ---
 
-## 4장 객체지향 문법 다형성, 확장
+## 4장 객체지향 문법 다형성 확장
 19. [다형성 : 메서드 오버라이드](./Contents/Chapter_04_OOP/19_Polymorphism.md)
 20. [다형성 : base를 이용한 메서드 재사용, object 기본 메서드 확장](./Contents/Chapter_04_OOP/20_Polymorphism.md)
 21. [다형성 : 메서드 오버로드](./Contents/Chapter_04_OOP/21_Polymorphism.md)
