@@ -30,7 +30,7 @@
 12. [제어문 : for 문, foreach 문](./Contents/Chapter_03_Basics/12_Statements.md)
 13. [제어문 : while 문, do/while 문](./Contents/Chapter_03_Basics/13_Statements.md)
 14. [제어문 : 점프문 break, continue, goto](./Contents/Chapter_03_Basics/14_Statements.md)
-- [목차로...](#목차)
+> [목차](#목차)
 ---
 
 ## 4장 객체지향 문법 - 클래스 상속
@@ -52,6 +52,7 @@
 16. [상속 : System.Array](./Contents/Chapter_04_OOP/16_Inheritance.md)
 17. [상속 : this](./Contents/Chapter_04_OOP/17_Inheritance.md)
 18. [상속 : base](./Contents/Chapter_04_OOP/18_Inheritance.md)
+> [목차](#목차)
 ---
 
 ## 4장 객체지향 문법 - 다형성 확장
@@ -68,9 +69,10 @@
 29. [C# 클래스 확장 : 클래스 타입 정렬 코드, 클래스 배열 초기화](./Contents/Chapter_04_OOP/29_MoreGrammar.md)
 30. [C# 클래스 확장 : 델리게이트와 object를 이용한 범용 정렬 코드](./Contents/Chapter_04_OOP/30_MoreGrammar.md)
 31. [C# 클래스 확장 : ](./Contents/Chapter_04_OOP/31_MoreGrammar.md)
+> [목차](#목차)
 ---
 
 ## 5장 
----
 
-## -
+> [목차](#목차)
+---
