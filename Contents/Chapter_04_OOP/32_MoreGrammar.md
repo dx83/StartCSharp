@@ -31,7 +31,7 @@ static void Unit1()
     IDrawingObject instance = new Line();
     instance.Draw();
 }
-// 출력 결과과
+// 출력 결과
 Line
 Rectangle
 Line
@@ -48,7 +48,34 @@ interface IObjectToString { }
 
 class Object { }
 
-class Person : IObj과
+class Person : IObjectToString  // ToString을 재정의했다는 의미로 인터페이스 상속
+{
+    string name;
+    public Person(string name)
+    {
+        this.name = name;
+    }
+
+    public override string ToString()
+    {
+        return "Person: " + this.name;
+    }
+}
+
+private static void DisplayObject(object obj)
+{
+    if (obj is IObjectToString) // 해당 인터페이스로 형변환이 가능 유무
+    {
+        Console.WriteLine(obj.ToString());
+    }
+}
+
+static void Unit2()
+{
+    DisplayObject(new Object());
+    DisplayObject(new Person("홍길동"));
+}
+// 출력 결과
 Person: 홍길동
 ```
 - 인터페이스로의 형변환 가능 유무를 활용
