@@ -27,19 +27,85 @@ while (enumerator.MoveNext())
 {
     Console.Write(enumerator.Current + "\t");
 }
-// 출력문
+// 출력 결과
 1  2  3  4  5
+```
+<br>
 
-// foreach 문을 사용하면 편리
+▼ foreach 제어문의 `in` 다음에 오는 객체는 IEnumerable 인터페이스를 구현한 인스턴스여야 한다.
+```csharp
+// 위의 예제 foreach 문 사용
 foreach (int elem in intArray)
 {
     Console.Write(elem + "\t");
 }
+// string 타입도 IEnumerable 인터페이스를 구현했다.
+string name = "Korea";
+foreach (char ch in name)
+{
+    Console.Write(ch + "\t");    // K    o    r    e    a
+}
 ```
+<br>
 
+▼ IEnumerable 인터페이스 구현해보기
+```csharp
+class Notebook : Hardware, IEnumerable
+{
+    USB[] usbList = new USB[] { new USB("USB1"), new USB("USB2") };
 
+    // IEnumerator를 구현한 열거자 인스턴스 반환
+    public IEnumerator GetEnumerator()
+    {
+        return new USBEnumerator(usbList);
+    }
 
+    // 중첩 클래스로 정의된 열거자 타입
+    public class USBEnumerator : IEnumerator
+    {
+        int pos = -1;
+        int length = 0;
+        object[] list;
 
+        public USBEnumerator(USB[] usb)
+        {
+            list = usb;
+            length = usb.Length;
+        }
+
+        public object Current   // 현재 요소를 반환하도록 약속된 접근자 메서드
+        {
+            get { return list[pos]; }
+        }
+
+        public bool MoveNext()  // 다음 순서의 요소를 지정하도록 약속된 메서드
+        {
+            if (pos >= length -1)
+            {
+                return false;
+            }
+
+            pos++;
+            return true;
+        }
+
+        public void Reset()     // 처음부터 열거하고 싶을 때 호출하면 되는 메서드
+        {
+            pos = -1;
+        }
+    }
+}
+
+// 출력문
+Notebook notebook = new Notebook();
+foreach (USB usb in notebook)
+{
+    Console.WriteLine(usb);
+}
+// 출력 결과
+USB1
+USB2
+```
 
 ****
 <br>
