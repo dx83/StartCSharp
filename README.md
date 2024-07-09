@@ -68,7 +68,8 @@
 28. [C# 클래스 확장 : 콜백 메서드를 이용한 선택정렬 알고리즘](./Contents/Chapter_04_OOP/28_MoreGrammar.md)
 29. [C# 클래스 확장 : 클래스 타입 정렬 코드, 클래스 배열 초기화](./Contents/Chapter_04_OOP/29_MoreGrammar.md)
 30. [C# 클래스 확장 : 델리게이트와 object를 이용한 범용 정렬 코드](./Contents/Chapter_04_OOP/30_MoreGrammar.md)
-31. [C# 클래스 확장 : ](./Contents/Chapter_04_OOP/31_MoreGrammar.md)
+31. [C# 클래스 확장 : 인터페이스 개념](./Contents/Chapter_04_OOP/31_MoreGrammar.md)
+32. [C# 클래스 확장 : ](./Contents/Chapter_04_OOP/32_MoreGrammar.md)
 > [목차](#목차)
 ---
 
