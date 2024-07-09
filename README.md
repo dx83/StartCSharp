@@ -75,7 +75,8 @@
 30. [C# 클래스 확장 : 델리게이트와 object를 이용한 범용 정렬 코드](./Contents/Chapter_04_OOP/30_MoreGrammar.md)
 31. [C# 클래스 확장 : 인터페이스 개념](./Contents/Chapter_04_OOP/31_MoreGrammar.md)
 32. [C# 클래스 확장 : 인터페이스의 상속 활용](./Contents/Chapter_04_OOP/32_MoreGrammar.md)
-33. [C# 클래스 확장 : ](./Contents/Chapter_04_OOP/33_MoreGrammar.md)
+33. [C# 클래스 확장 : 인터페이스를 이용한 콜백 구현](./Contents/Chapter_04_OOP/33_MoreGrammar.md)
+34. [C# 클래스 확장 : ](./Contents/Chapter_04_OOP/34_MoreGrammar.md)
 > [목차](#목차)
 ---
 
