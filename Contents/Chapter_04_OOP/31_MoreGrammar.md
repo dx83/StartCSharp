@@ -53,11 +53,52 @@ class Notebook : Computer, IMonitor, IKeyboard
 ```csharp
 class Notebook : Computer, IMonitor, IKeyboard
 {
-    // 추상 메서드와 달리 override 예약어가 필요 없음
     void IMonitor.TurnOn() { }
 }
 ```
+<br>
 
+▼ 위 2 가지 메서드 구현 방삭은 호출하는 방법에 따른 차이점이 있다.
+```csharp
+Notebook notebook = new Notebook();
+// public 접근 제한자를 사용한 경우
+notebook.TurnOn();
+
+// 인터페이스명을 명시한 경우
+IMonitor mon = notebook as IMonitor;
+mon.TurnOn();
+```
+- 인터페이스명을 명시한 경우 반드시 해당 인터페이스로 형변환해서 호출해야 한다.
+<br>
+
+▼ 프로퍼티
+```csharp
+interface IMonitor
+{
+    void TurnOn();
+    int Inch { get; set; }  // 프로퍼티 get/set 포함
+    int Width { get; }      // 하나만 포함하는 것도 가능
+}
+
+class Notebook : IMonitor
+{
+    public void TurnOn() { }
+
+    int inch;
+    public int Inch
+    {
+        get { return inch; }
+        set { inch = value; }
+    }
+
+    int width;
+    public int Width
+    {
+        get { return width; }
+    }
+}
+```
+- 인터페이스가 `메서드의 묶음`이고, C# 프로퍼티가 내부적으로 메서드로 구현되기 때문에 인터페이스에는 프로퍼티 역시 포함될 수 있다.
 
 ****
 <br>
