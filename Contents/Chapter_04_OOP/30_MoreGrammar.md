@@ -83,7 +83,7 @@ static void Main(string[] args)
         Console.WriteLine(p[i].Name + ": " + p[i].Age);
     }
 }
-// 출력문
+// 출력 결과
 Anders: 51
 Mads: 62
 Petter: 45
