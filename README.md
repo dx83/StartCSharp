@@ -4,8 +4,9 @@
 ## 목차
 - [1장 닷넷 프레임워크](#1장-닷넷-프레임워크)
 - [3장 C# 기초](#3장-CSharp-기초)
-- [4장 객체지향 문법 - 클래스 상속](#4장-객체지향-문법---클래스-상속)
-- [4장 객체지향 문법 - 다형성 확장](#4장-객체지향-문법---다형성-확장)
+- [4장 객체지향 문법 - 클래스 캡슐화](#4장-객체지향-문법---클래스-캡슐화)
+- [4장 객체지향 문법 - 상속 다형성](#4장-객체지향-문법---상속-다형성)
+- [4장 객체지향 문법 - 확장](#4장-객체지향-문법---확장)
 - [5장](#5장)
 ---
 
@@ -33,7 +34,7 @@
 > [목차](#목차)
 ---
 
-## 4장 객체지향 문법 - 클래스 상속
+## 4장 객체지향 문법 - 클래스 캡슐화
 1. [클래스 : 객체, 필드](./Contents/Chapter_04_OOP/01_Class.md)
 2. [클래스 : 메서드](./Contents/Chapter_04_OOP/02_Class.md)
 3. [클래스 : 메서드(중복 코드 제거, 추상화)](./Contents/Chapter_04_OOP/03_Class.md)
@@ -44,6 +45,10 @@
 8. [클래스 : 네임스페이스](./Contents/Chapter_04_OOP/08_Class.md)
 9. [캡슐화 : 접근 제한자, 정보 은닉](./Contents/Chapter_04_OOP/09_Encapsulation.md)
 10. [캡슐화 : 프로퍼티](./Contents/Chapter_04_OOP/10_Encapsulation.md)
+> [목차](#목차)
+---
+
+## 4장 객체지향 문법 - 상속 다형성
 11. [상속 : 기본 개념](./Contents/Chapter_04_OOP/11_Inheritance.md)
 12. [상속 : 형변환](./Contents/Chapter_04_OOP/12_Inheritance.md)
 13. [상속 : as/is 연산자, System.Object](./Contents/Chapter_04_OOP/13_Inheritance.md)
@@ -52,15 +57,15 @@
 16. [상속 : System.Array](./Contents/Chapter_04_OOP/16_Inheritance.md)
 17. [상속 : this](./Contents/Chapter_04_OOP/17_Inheritance.md)
 18. [상속 : base](./Contents/Chapter_04_OOP/18_Inheritance.md)
-> [목차](#목차)
----
-
-## 4장 객체지향 문법 - 다형성 확장
 19. [다형성 : 메서드 오버라이드](./Contents/Chapter_04_OOP/19_Polymorphism.md)
 20. [다형성 : base를 이용한 메서드 재사용, object 기본 메서드 확장](./Contents/Chapter_04_OOP/20_Polymorphism.md)
 21. [다형성 : 메서드 오버로드](./Contents/Chapter_04_OOP/21_Polymorphism.md)
 22. [다형성 : 연산자 오버로드](./Contents/Chapter_04_OOP/22_Polymorphism.md)
 23. [다형성 : 클래스 간의 형변환](./Contents/Chapter_04_OOP/23_Polymorphism.md)
+> [목차](#목차)
+---
+
+## 4장 객체지향 문법 - 확장
 24. [C# 클래스 확장 : 중첩 클래스, 추상 클래스](./Contents/Chapter_04_OOP/24_MoreGrammar.md)
 25. [C# 클래스 확장 : 델리게이트 정의, 활용](./Contents/Chapter_04_OOP/25_MoreGrammar.md)
 26. [C# 클래스 확장 : 델리게이트 타입, +=/-= 연산자](./Contents/Chapter_04_OOP/26_MoreGrammar.md)
