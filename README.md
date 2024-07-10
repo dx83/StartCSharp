@@ -7,6 +7,7 @@
 - [4장 객체지향 문법 - 클래스 캡슐화](#4장-객체지향-문법---클래스-캡슐화)
 - [4장 객체지향 문법 - 상속 다형성](#4장-객체지향-문법---상속-다형성)
 - [4장 객체지향 문법 - 델리게이트 인터페이스](#4장-객체지향-문법---델리게이트-인터페이스)
+- [4장 객체지향 문법 - 확장](#4장-객체지향-문법---확장)
 - [5장](#5장)
 ---
 
@@ -78,7 +79,12 @@
 33. [C# 클래스 확장 : 인터페이스를 이용한 콜백 구현](./Contents/Chapter_04_OOP/33_MoreGrammar.md)
 34. [C# 클래스 확장 : IEnumerable 인터페이스](./Contents/Chapter_04_OOP/34_MoreGrammar.md)
 35. [C# 클래스 확장 : 인터페이스를 사용한 느슨한 결합](./Contents/Chapter_04_OOP/35_MoreGrammar.md)
-36. [C# 클래스 확장 : ](./Contents/Chapter_04_OOP/36_MoreGrammar.md)
+> [목차](#목차)
+---
+
+## 4장 객체지향 문법 - 확장
+36. [C# 클래스 확장 : 구조체 개념](./Contents/Chapter_04_OOP/36_MoreGrammar.md)
+37. [C# 클래스 확장 : ](./Contents/Chapter_04_OOP/37_MoreGrammar.md)
 > [목차](#목차)
 ---
 
