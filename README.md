@@ -86,7 +86,8 @@
 36. [C# 클래스 확장 : 구조체 개념](./Contents/Chapter_04_OOP/36_MoreGrammar.md)
 37. [C# 클래스 확장 : 깊은 복사와 얕은 복사](./Contents/Chapter_04_OOP/37_MoreGrammar.md)
 38. [C# 클래스 확장 : ref 예약어](./Contents/Chapter_04_OOP/38_MoreGrammar.md)
-39. [C# 클래스 확장 : ](./Contents/Chapter_04_OOP/39_MoreGrammar.md)
+39. [C# 클래스 확장 : out 예약어](./Contents/Chapter_04_OOP/39_MoreGrammar.md)
+40. [C# 클래스 확장 : ](./Contents/Chapter_04_OOP/40_MoreGrammar.md)
 > [목차](#목차)
 ---
 
