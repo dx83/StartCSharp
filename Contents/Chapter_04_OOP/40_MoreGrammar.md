@@ -75,12 +75,12 @@ Console.WriteLine(workingDays.HasFlag(Days.Sunday));    // Sunday를 포함하�
 Days today = Days.Friday;
 Console.WriteLine(workingDays.HasFlag(today));          // today를 포함하고 있는가?
 
-Console.WriteLine(workingDays);
+Console.WriteLine(workingDays); // 2 + 4 + 8 + 16 + 32
 
 // 출력문
 False
 True
-62    // 2 + 4 + 8 + 16 + 32
+62
 ```
 - enum 타입의 인스턴스가 여러 개의 값을 포함하는 용도로 사용된다는 것을 알리기 위해 [Flags] 특성을 지정할 수 있다.
 <br>
