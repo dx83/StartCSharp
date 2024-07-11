@@ -87,7 +87,9 @@
 37. [C# 클래스 확장 : 깊은 복사와 얕은 복사](./Contents/Chapter_04_OOP/37_MoreGrammar.md)
 38. [C# 클래스 확장 : ref 예약어](./Contents/Chapter_04_OOP/38_MoreGrammar.md)
 39. [C# 클래스 확장 : out 예약어](./Contents/Chapter_04_OOP/39_MoreGrammar.md)
-40. [C# 클래스 확장 : ](./Contents/Chapter_04_OOP/40_MoreGrammar.md)
+40. [C# 클래스 확장 : 열거형 기본](./Contents/Chapter_04_OOP/40_MoreGrammar.md)
+41. [C# 클래스 확장 : 열거형 Flags](./Contents/Chapter_04_OOP/41_MoreGrammar.md)
+42. [C# 클래스 확장 : ](./Contents/Chapter_04_OOP/42_MoreGrammar.md)
 > [목차](#목차)
 ---
 
