@@ -33,6 +33,7 @@ enum Days
     Sunday = 1, Monday = 2, Tuesday = 4, Wednesday = 8,
     Thursday = 16, Friday = 32, Saturday = 64
 }
+
 // 출력문
 Console.WriteLine(workingDays); // Monday, Tuesday, Wednesday, Thursday, Friday
 ```
@@ -59,7 +60,7 @@ Console.WriteLine(Calc('+', 5, 6));  // 11
 ```csharp
 enum CalcType { Add, Minus, Multiply, Divide }
 
-static int Calc(CalcType opType, int operand1, int operand2)
+int Calc(CalcType opType, int operand1, int operand2)
 {
     switch (opType)
     {
