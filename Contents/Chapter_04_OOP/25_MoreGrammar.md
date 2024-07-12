@@ -52,7 +52,7 @@ Disk disk = new Disk();
 FuncDelegate cleanFunc = disk.Clean;
 
 disk.Clean(null);   // Clean 메서드를 직접 호출
-cleanFunc(null);    // 델리게이트 인스턴스를 통해 Clean 메서드를 호울
+cleanFunc(null);    // 델리게이트 인스턴스를 통해 Clean 메서드를 호출출
 ```
 <br>
 
