@@ -67,29 +67,29 @@
 ---
 
 ## 4장 객체지향 문법 - 델리게이트 인터페이스
-24. [C# 클래스 확장 : 중첩 클래스, 추상 클래스](./Contents/Chapter_04_OOP/24_MoreGrammar.md)
-25. [C# 클래스 확장 : 델리게이트 정의, 활용](./Contents/Chapter_04_OOP/25_MoreGrammar.md)
-26. [C# 클래스 확장 : 델리게이트 타입, +=/-= 연산자](./Contents/Chapter_04_OOP/26_MoreGrammar.md)
-27. [C# 클래스 확장 : 콜백 메서드와 델리게이트](./Contents/Chapter_04_OOP/27_MoreGrammar.md)
-28. [C# 클래스 확장 : 콜백 메서드를 이용한 선택정렬 알고리즘](./Contents/Chapter_04_OOP/28_MoreGrammar.md)
-29. [C# 클래스 확장 : 클래스 타입 정렬 코드, 클래스 배열 초기화](./Contents/Chapter_04_OOP/29_MoreGrammar.md)
-30. [C# 클래스 확장 : 델리게이트와 object를 이용한 범용 정렬 코드](./Contents/Chapter_04_OOP/30_MoreGrammar.md)
-31. [C# 클래스 확장 : 인터페이스 개념](./Contents/Chapter_04_OOP/31_MoreGrammar.md)
-32. [C# 클래스 확장 : 인터페이스의 상속 활용](./Contents/Chapter_04_OOP/32_MoreGrammar.md)
-33. [C# 클래스 확장 : 인터페이스를 이용한 콜백 구현](./Contents/Chapter_04_OOP/33_MoreGrammar.md)
-34. [C# 클래스 확장 : IEnumerable 인터페이스](./Contents/Chapter_04_OOP/34_MoreGrammar.md)
-35. [C# 클래스 확장 : 인터페이스를 사용한 느슨한 결합](./Contents/Chapter_04_OOP/35_MoreGrammar.md)
+24. [C# 클래스 확장 (타입 유형 확장) : 중첩 클래스, 추상 클래스](./Contents/Chapter_04_OOP/24_MoreGrammar.md)
+25. [C# 클래스 확장 (타입 유형 확장) : 델리게이트 정의, 활용](./Contents/Chapter_04_OOP/25_MoreGrammar.md)
+26. [C# 클래스 확장 (타입 유형 확장) : 델리게이트 타입, +=/-= 연산자](./Contents/Chapter_04_OOP/26_MoreGrammar.md)
+27. [C# 클래스 확장 (타입 유형 확장) : 콜백 메서드와 델리게이트](./Contents/Chapter_04_OOP/27_MoreGrammar.md)
+28. [C# 클래스 확장 (타입 유형 확장) : 콜백 메서드를 이용한 선택정렬 알고리즘](./Contents/Chapter_04_OOP/28_MoreGrammar.md)
+29. [C# 클래스 확장 (타입 유형 확장) : 클래스 타입 정렬 코드, 클래스 배열 초기화](./Contents/Chapter_04_OOP/29_MoreGrammar.md)
+30. [C# 클래스 확장 (타입 유형 확장) : 델리게이트와 object를 이용한 범용 정렬 코드](./Contents/Chapter_04_OOP/30_MoreGrammar.md)
+31. [C# 클래스 확장 (타입 유형 확장) : 인터페이스 개념](./Contents/Chapter_04_OOP/31_MoreGrammar.md)
+32. [C# 클래스 확장 (타입 유형 확장) : 인터페이스의 상속 활용](./Contents/Chapter_04_OOP/32_MoreGrammar.md)
+33. [C# 클래스 확장 (타입 유형 확장) : 인터페이스를 이용한 콜백 구현](./Contents/Chapter_04_OOP/33_MoreGrammar.md)
+34. [C# 클래스 확장 (타입 유형 확장) : IEnumerable 인터페이스](./Contents/Chapter_04_OOP/34_MoreGrammar.md)
+35. [C# 클래스 확장 (타입 유형 확장) : 인터페이스를 사용한 느슨한 결합](./Contents/Chapter_04_OOP/35_MoreGrammar.md)
 > [목차](#목차)
 ---
 
 ## 4장 객체지향 문법 - 구조체 열거형
-36. [C# 클래스 확장 : 구조체 개념](./Contents/Chapter_04_OOP/36_MoreGrammar.md)
-37. [C# 클래스 확장 : 깊은 복사와 얕은 복사](./Contents/Chapter_04_OOP/37_MoreGrammar.md)
-38. [C# 클래스 확장 : ref 예약어](./Contents/Chapter_04_OOP/38_MoreGrammar.md)
-39. [C# 클래스 확장 : out 예약어](./Contents/Chapter_04_OOP/39_MoreGrammar.md)
-40. [C# 클래스 확장 : 열거형 기본](./Contents/Chapter_04_OOP/40_MoreGrammar.md)
-41. [C# 클래스 확장 : 열거형 Flags](./Contents/Chapter_04_OOP/41_MoreGrammar.md)
-42. [C# 클래스 확장 : ](./Contents/Chapter_04_OOP/42_MoreGrammar.md)
+36. [C# 클래스 확장 (타입 유형 확장) : 구조체 개념](./Contents/Chapter_04_OOP/36_MoreGrammar.md)
+37. [C# 클래스 확장 (타입 유형 확장) : 깊은 복사와 얕은 복사](./Contents/Chapter_04_OOP/37_MoreGrammar.md)
+38. [C# 클래스 확장 (타입 유형 확장) : ref 예약어](./Contents/Chapter_04_OOP/38_MoreGrammar.md)
+39. [C# 클래스 확장 (타입 유형 확장) : out 예약어](./Contents/Chapter_04_OOP/39_MoreGrammar.md)
+40. [C# 클래스 확장 (타입 유형 확장) : 열거형 기본](./Contents/Chapter_04_OOP/40_MoreGrammar.md)
+41. [C# 클래스 확장 (타입 유형 확장) : 열거형 Flags](./Contents/Chapter_04_OOP/41_MoreGrammar.md)
+42. [C# 클래스 확장 (멤 유형 확장) : ](./Contents/Chapter_04_OOP/42_MoreGrammar.md)
 > [목차](#목차)
 ---
 
