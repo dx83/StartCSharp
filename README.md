@@ -91,7 +91,8 @@
 41. [C# 클래스 확장 (타입 유형 확장) : 열거형 Flags](./Contents/Chapter_04_OOP/41_MoreGrammar.md)
 42. [C# 클래스 확장 (멤버 유형 확장) : 읽기 전용 필드 (readonly)](./Contents/Chapter_04_OOP/42_MoreGrammar.md)
 43. [C# 클래스 확장 (멤버 유형 확장) : 상수 (constant)](./Contents/Chapter_04_OOP/43_MoreGrammar.md)
-44. [C# 클래스 확장 (멤버 유형 확장) : ](./Contents/Chapter_04_OOP/44_MoreGrammar.md)
+44. [C# 클래스 확장 (멤버 유형 확장) : event EventHandler](./Contents/Chapter_04_OOP/44_MoreGrammar.md)
+45. [C# 클래스 확장 (멤버 유형 확장) : 인덱서](./Contents/Chapter_04_OOP/45_MoreGrammar.md)
 > [목차](#목차)
 ---
 
