@@ -91,6 +91,9 @@ static void Main(string[] args)
 {
     PrimeGenerator gen = new PrimeGenerator();
 
+    // PrimeGenerator 클래스 내부의 PrimeDelegate 클래스를 이용하듯이...
+    // PrimeGenerator.PrimeDelegate 사용
+
     // PrintPrime 콜백 메서드 추가
     PrimeGenerator.PrimeDelegate callprint = PrintPrime;
     gen.AddDelegate(callprint);
