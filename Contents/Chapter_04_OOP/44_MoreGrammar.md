@@ -121,8 +121,95 @@ static void Main(string[] args)
 
 ▼ event를 사용 (System.EventArgs)
 ```csharp
+class PrimeCallbackArg : EventArgs  // 콜백 값을 담는 클래스 정의
+{
+    public int Prime;
 
+    public PrimeCallbackArg(int prime)
+    {
+        this.Prime = prime;
+    }
+}
+
+// 소수 생성기: 소수가 발생할 때마다 등록된 콜백 메서드를 호출
+class PrimeGenerator
+{
+    public event EventHandler PrimeGenerated;
+
+    // 주어진 수까지 루프를 돌면서 소수가 발견되면 콜백 메서드 호출
+    public void Run(int limit)
+    {
+        for (int i = 2; i <= limit; i++)
+        {
+            if (IsPrime(i) == true && PrimeGenerated != null)
+            {
+                // 콜백을 발생시킨 측의 인스턴스와 발견된 소수를 콜백 메서드에 전달
+                PrimeGenerated(this, new PrimeCallbackArg(i));
+            }
+        }
+    }
+
+    // 소수 판정 메서드: 이해 못해도 상관없음.
+    private bool IsPrime(int candidate)
+    {
+        if ((candidate & 1) == 0)
+        {
+            return candidate == 2;
+        }
+
+        for (int i = 3; (i * i) <= candidate; i += 2)
+        {
+            if ((candidate % i) == 0) return false;
+        }
+
+        return candidate != 1;
+    }
+}
 ```
+```csharp
+// 콜백으로 등록될 메서드 1
+static void PrintPrime(object sender, EventArgs arg)
+{
+    Console.Write((arg as PrimeCallbackArg).Prime + ", ");
+}
+
+static int SUM;
+
+// 콜백으로 등록될 메서드 2
+static void SumPrime(object sender, EventArgs arg)
+{
+    SUM += (arg as PrimeCallbackArg).Prime;
+}
+
+static void Unit0()
+{
+    PrimeGenerator gen = new PrimeGenerator();
+
+    // 해당 메서드로 이벤트 구독
+    gen.PrimeGenerated += PrintPrime;
+    gen.PrimeGenerated += SumPrime;
+
+    // 1 ~ 10까지 소수를 구하기
+    gen.Run(10);
+    Console.WriteLine();
+    Console.WriteLine(SUM);
+    // SumPrime 메서드의 이벤트 해지
+    gen.PrimeGenerated -= SumPrime;
+    gen.Run(15);
+}
+```
+<br>
+
+▼ event 구문
+```csharp
+class 클래스_명
+{
+    접근_제한자 event EventHandler 식별자;
+}
+```
+- 클래스의 멤버로 이벤트를 정의한다.
+- 이벤트는 외부에서 구독/해지가 가능하다.
+- 내부에서 이벤트를 발생시키면 외부에서 다중으로 이벤트에 대한 콜백이 발생할 수 있다.
 
 ****
 <br>
