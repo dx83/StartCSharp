@@ -181,7 +181,7 @@ static void SumPrime(object sender, EventArgs arg)
     SUM += (arg as PrimeCallbackArg).Prime;
 }
 
-static void Unit0()
+static void Main(string[] args)
 {
     PrimeGenerator gen = new PrimeGenerator();
 
