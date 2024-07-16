@@ -71,7 +71,7 @@ static void Main(string[] args)
     for (int i = 0; i < max; i++)
     {
         Console.WriteLine(step + "의 자릿수: " + aInt[i]);
-        step += i == 0 ? 9 : 10;
+        step *= 10;
     }
 
     aInt[3] = '5';
@@ -89,5 +89,52 @@ static void Main(string[] args)
 ```
 <br>
 
+▼ 프로퍼티처럼 set 구문을 제거하면 읽기 전용으로 만드는 것도 가능하다.
+```csharp
+class Notebook
+{
+    int inch;
+    int memoryGB;
+
+    public Notebook(int inch, int memoryGB)
+    {
+        this.inch = inch;
+        this.memoryGB = memoryGB;
+    }
+
+    public int this[string propertyName] // 문자열로 인덱스를 지정
+    {
+        get
+        {
+            switch (propertyName)
+            {
+                case "인치":
+                    return inch;
+                case "메모리크기":
+                    return memoryGB;
+            }
+
+            return -1;
+        }
+    }
+}
+
+static void Main(string[] args)
+{
+    Notebook normal = new Notebook(13, 4);
+
+    Console.WriteLine("모니터 인치: " + normal["인치"] + "\"");
+    Console.WriteLine("메모리 크기: " + normal["메모리크기"] + "GB");
+}
+
+// 출력 결과
+모니터 인치: 13"
+메모리 크기: 4GB
+```
+<br>
+
+```
+인덱서는 클래스가 직관적으로 배열처럼 다뤄질 수 있을 때 사용하기 쉽도록 제공되는 구문이다.
+```
 ****
 <br>
