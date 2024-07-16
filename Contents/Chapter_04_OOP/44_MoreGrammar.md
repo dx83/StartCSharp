@@ -42,7 +42,7 @@ class PrimeGenerator
         callback = Delegate.Remove(callbacks, callback) as PrimeDelegate;
     }
 
-    // 주어딘 수까지 루프를 돌면서 소수가 발견되면 콜백 메서드 호출
+    // 주어진 수까지 루프를 돌면서 소수가 발견되면 콜백 메서드 호출
     public void Run(int limit)
     {
         for (int i = 2; i <= limit; i++)
