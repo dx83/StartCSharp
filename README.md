@@ -12,9 +12,9 @@
 ---
 
 ## 1장 닷넷 프레임워크
-1. [닷넷 프레임워크와 관련된 용어 정의](./Contents/Chapter_01_DotNET/01_닷넷_프레임워크와_관련_용어.md)
-2. [닷넷 프레임워크 개념](./Contents/Chapter_01_DotNET/02_닷넷_프레임워크_개념.md)
-3. [닷네 코어, 닷넷 5/6, C# 언어 활용](./Contents/Chapter_01_DotNET/03_닷넷_코어_5-6_CSharp_활용.md)
+1. [닷넷 프레임워크와 관련된 용어 정의](./Contents/Chapter_01_닷넷/01_닷넷_프레임워크와_관련_용어.md)
+2. [닷넷 프레임워크 개념](./Contents/Chapter_01_닷넷/02_닷넷_프레임워크_개념.md)
+3. [닷네 코어, 닷넷 5/6, C# 언어 활용](./Contents/Chapter_01_닷넷/03_닷넷_코어_5-6_CSharp_활용.md)
 ---
 
 ## 3장 CSharp 기초
@@ -36,13 +36,13 @@
 ---
 
 ## 4장 객체지향 문법 - 클래스 캡슐화
-1. [클래스 : 객체, 필드](./Contents/Chapter_04_OOP/01_Class.md)
-2. [클래스 : 메서드](./Contents/Chapter_04_OOP/02_Class.md)
-3. [클래스 : 메서드(중복 코드 제거, 추상화)](./Contents/Chapter_04_OOP/03_Class.md)
-4. [클래스 : 생성자, 종료자, GC](./Contents/Chapter_04_OOP/04_Class.md)
-5. [클래스 : 인스턴스 멤버, 정적 필드](./Contents/Chapter_04_OOP/05_Class.md)
-6. [클래스 : 정적 메서드, Main 메서드](./Contents/Chapter_04_OOP/06_Class.md)
-7. [클래스 : 정적 생성자](./Contents/Chapter_04_OOP/07_Class.md)
+1. [클래스 : 객체, 필드](./Contents/Chapter_04_OOP/01_[클래스]_객체_필드.md)
+2. [클래스 : 메서드](./Contents/Chapter_04_OOP/02_[클래스]_메서드.md)
+3. [클래스 : 메서드(중복 코드 제거, 추상화)](./Contents/Chapter_04_OOP/03_[클래스]_중복코드제거_추상화.md)
+4. [클래스 : 생성자, 종료자, GC](./Contents/Chapter_04_OOP/04_[클래스]_생성자_종료자_GC.md)
+5. [클래스 : 인스턴스 멤버, 정적 필드](./Contents/Chapter_04_OOP/05_[클래스]_인스턴스_맴버_정적_필드.md)
+6. [클래스 : 정적 메서드, Main 메서드](./Contents/Chapter_04_OOP/06_[클래스]_정적_메서드_Main_메서드.md)
+7. [클래스 : 정적 생성자](./Contents/Chapter_04_OOP/)
 8. [클래스 : 네임스페이스](./Contents/Chapter_04_OOP/08_Class.md)
 9. [캡슐화 : 접근 제한자, 정보 은닉](./Contents/Chapter_04_OOP/09_Encapsulation.md)
 10. [캡슐화 : 프로퍼티](./Contents/Chapter_04_OOP/10_Encapsulation.md)
