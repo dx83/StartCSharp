@@ -13,8 +13,8 @@
 
 ## 1장 닷넷 프레임워크
 1. [닷넷 프레임워크와 관련된 용어 정의](./Contents/Chapter_01_DotNET/01_닷넷_프레임워크와_관련된_용어_정의.md)
-2. [닷넷 프레임워크 개념](./Contents/Chapter_01_DotNET/02_DotNET.md)
-3. [닷네 코어, 닷넷 5/6, C# 언어 활용](./Contents/Chapter_01_DotNET/03_DotNET.md)
+2. [닷넷 프레임워크 개념](./Contents/Chapter_01_DotNET/02_닷넷_프레임워크_개념.md)
+3. [닷네 코어, 닷넷 5/6, C# 언어 활용](./Contents/Chapter_01_DotNET/03_닷넷_코어_닷넷_5-6_C#_언어_활용.md)
 ---
 
 ## 3장 CSharp 기초
