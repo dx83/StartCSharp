@@ -18,9 +18,9 @@
 ---
 
 ## 3장 CSharp 기초
-1. [기본 자료형](./Contents/Chapter_03_Basics/01_Data_Type.md)
-2. [형변환](./Contents/Chapter_03_Basics/02_Type_Conversion.md)
-3. [기본 문법 : 예약어, 식별자, 리터럴](./Contents/Chapter_03_Basics/03_Basics.md)
+1. [기본 자료형](./Contents/Chapter_03_Basics/01_기본_자료형.md)
+2. [형변환](./Contents/Chapter_03_Basics/02_형변환.md)
+3. [기본 문법 : 예약어, 식별자, 리터럴](./Contents/Chapter_03_Basics/03_기본_:_예약어_식별자_리터럴.md)
 4. [기본 문법 : 변수](./Contents/Chapter_03_Basics/04_Basics.md)
 5. [기본 문법 : 초기화](./Contents/Chapter_03_Basics/05_Basics.md)
 6. [기본 문법 : 상수, 연산자, 문장부호](./Contents/Chapter_03_Basics/06_Basics.md)
