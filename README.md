@@ -35,7 +35,7 @@
 > [목차](#목차)
 ---
 
-## 4장 객체지향 문법 - 클래스 캡슐화
+## 4장 객체지향 문법 - 클래스, 캡슐화
 1. [클래스 : 객체, 필드](./Contents/Chapter_04_객체_지향_프로그래밍/01_[클래스]_객체_필드.md)
 2. [클래스 : 메서드](./Contents/Chapter_04_객체_지향_프로그래밍/02_[클래스]_메서드.md)
 3. [클래스 : 메서드(중복 코드 제거, 추상화)](./Contents/Chapter_04_객체_지향_프로그래밍/03_[클래스]_중복코드제거_추상화.md)
@@ -49,7 +49,7 @@
 > [목차](#목차)
 ---
 
-## 4장 객체지향 문법 - 상속 다형성
+## 4장 객체지향 문법 - 상속, 다형성
 11. [상속 : 기본 개념](./Contents/Chapter_04_OOP/11_Inheritance.md)
 12. [상속 : 형변환](./Contents/Chapter_04_OOP/12_Inheritance.md)
 13. [상속 : as/is 연산자, System.Object](./Contents/Chapter_04_OOP/13_Inheritance.md)
@@ -66,7 +66,7 @@
 > [목차](#목차)
 ---
 
-## 4장 객체지향 문법 - 델리게이트 인터페이스
+## 4장 객체지향 문법 - 델리게이트, 인터페이스
 24. [C# 클래스 확장 (타입 유형 확장) : 중첩 클래스, 추상 클래스](./Contents/Chapter_04_OOP/24_MoreGrammar.md)
 25. [C# 클래스 확장 (타입 유형 확장) : 델리게이트 정의, 활용](./Contents/Chapter_04_OOP/25_MoreGrammar.md)
 26. [C# 클래스 확장 (타입 유형 확장) : 델리게이트 타입, +=/-= 연산자](./Contents/Chapter_04_OOP/26_MoreGrammar.md)
@@ -82,7 +82,7 @@
 > [목차](#목차)
 ---
 
-## 4장 객체지향 문법 - 구조체 열거형 readonly constant event indexer
+## 4장 객체지향 문법 - 구조체, 열거형, readonly, constant, event, indexer
 36. [C# 클래스 확장 (타입 유형 확장) : 구조체 개념](./Contents/Chapter_04_OOP/36_MoreGrammar.md)
 37. [C# 클래스 확장 (타입 유형 확장) : 깊은 복사와 얕은 복사](./Contents/Chapter_04_OOP/37_MoreGrammar.md)
 38. [C# 클래스 확장 (타입 유형 확장) : ref 예약어](./Contents/Chapter_04_OOP/38_MoreGrammar.md)
