@@ -36,13 +36,13 @@
 ---
 
 ## 4장 객체지향 문법 - 클래스 캡슐화
-1. [클래스 : 객체, 필드](./Contents/Chapter_04_OOP/01_[클래스]_객체_필드.md)
-2. [클래스 : 메서드](./Contents/Chapter_04_OOP/02_[클래스]_메서드.md)
-3. [클래스 : 메서드(중복 코드 제거, 추상화)](./Contents/Chapter_04_OOP/03_[클래스]_중복코드제거_추상화.md)
-4. [클래스 : 생성자, 종료자, GC](./Contents/Chapter_04_OOP/04_[클래스]_생성자_종료자_GC.md)
-5. [클래스 : 인스턴스 멤버, 정적 필드](./Contents/Chapter_04_OOP/05_[클래스]_인스턴스_맴버_정적_필드.md)
-6. [클래스 : 정적 메서드, Main 메서드](./Contents/Chapter_04_OOP/06_[클래스]_정적_메서드_Main_메서드.md)
-7. [클래스 : 정적 생성자](./Contents/Chapter_04_OOP/)
+1. [클래스 : 객체, 필드](./Contents/Chapter_04_객체_지향_프로그래밍/01_[클래스]_객체_필드.md)
+2. [클래스 : 메서드](./Contents/Chapter_04_객체_지향_프로그래밍/02_[클래스]_메서드.md)
+3. [클래스 : 메서드(중복 코드 제거, 추상화)](./Contents/Chapter_04_객체_지향_프로그래밍/03_[클래스]_중복코드제거_추상화.md)
+4. [클래스 : 생성자, 종료자, GC](./Contents/Chapter_04_객체_지향_프로그래밍/04_[클래스]_생성자_종료자_GC.md)
+5. [클래스 : 인스턴스 멤버, 정적 필드](./Contents/Chapter_04_객체_지향_프로그래밍/05_[클래스]_인스턴스_맴버_정적_필드.md)
+6. [클래스 : 정적 메서드, Main 메서드](./Contents/Chapter_04_객체_지향_프로그래밍/06_[클래스]_정적_메서드_Main_메서드.md)
+7. [클래스 : 정적 생성자](./Contents/Chapter_04_객체_지향_프로그래밍/07_[클래스]_정적_생성자.md)
 8. [클래스 : 네임스페이스](./Contents/Chapter_04_OOP/08_Class.md)
 9. [캡슐화 : 접근 제한자, 정보 은닉](./Contents/Chapter_04_OOP/09_Encapsulation.md)
 10. [캡슐화 : 프로퍼티](./Contents/Chapter_04_OOP/10_Encapsulation.md)
