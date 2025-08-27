@@ -66,7 +66,7 @@ Notebook pc2 = obj2 as Notebook;
 
 ▼ object는 그 자체가 참조형임에도 값 형식의 부모 타입이기도 하다.
 
-<img src="../Images/4_9.png" width="700"/>
+<img src="../Images/4_09.png" width="700"/>
 
 <br>
 
