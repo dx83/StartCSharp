@@ -67,18 +67,18 @@
 ---
 
 ## 4장 객체지향 문법 - 델리게이트, 인터페이스
-24. [C# 클래스 확장 (타입 유형 확장) : 중첩 클래스, 추상 클래스](./Contents/Chapter_04_OOP/24_MoreGrammar.md)
-25. [C# 클래스 확장 (타입 유형 확장) : 델리게이트 정의, 활용](./Contents/Chapter_04_OOP/25_MoreGrammar.md)
-26. [C# 클래스 확장 (타입 유형 확장) : 델리게이트 타입, +=/-= 연산자](./Contents/Chapter_04_OOP/26_MoreGrammar.md)
-27. [C# 클래스 확장 (타입 유형 확장) : 콜백 메서드와 델리게이트](./Contents/Chapter_04_OOP/27_MoreGrammar.md)
-28. [C# 클래스 확장 (타입 유형 확장) : 콜백 메서드를 이용한 선택정렬 알고리즘](./Contents/Chapter_04_OOP/28_MoreGrammar.md)
-29. [C# 클래스 확장 (타입 유형 확장) : 클래스 타입 정렬 코드, 클래스 배열 초기화](./Contents/Chapter_04_OOP/29_MoreGrammar.md)
-30. [C# 클래스 확장 (타입 유형 확장) : 델리게이트와 object를 이용한 범용 정렬 코드](./Contents/Chapter_04_OOP/30_MoreGrammar.md)
-31. [C# 클래스 확장 (타입 유형 확장) : 인터페이스 개념](./Contents/Chapter_04_OOP/31_MoreGrammar.md)
-32. [C# 클래스 확장 (타입 유형 확장) : 인터페이스의 상속 활용](./Contents/Chapter_04_OOP/32_MoreGrammar.md)
-33. [C# 클래스 확장 (타입 유형 확장) : 인터페이스를 이용한 콜백 구현](./Contents/Chapter_04_OOP/33_MoreGrammar.md)
-34. [C# 클래스 확장 (타입 유형 확장) : IEnumerable 인터페이스](./Contents/Chapter_04_OOP/34_MoreGrammar.md)
-35. [C# 클래스 확장 (타입 유형 확장) : 인터페이스를 사용한 느슨한 결합](./Contents/Chapter_04_OOP/35_MoreGrammar.md)
+24. [C# 클래스 확장 (타입 유형 확장) : 중첩 클래스, 추상 클래스](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄱ_델리게이트/24_중첩_클래스_추상_클래스.md)
+25. [C# 클래스 확장 (타입 유형 확장) : 델리게이트 정의, 활용](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄱ_델리게이트/25_델리게이트_정의_활용.md)
+26. [C# 클래스 확장 (타입 유형 확장) : 델리게이트 타입, +=/-= 연산자](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄱ_델리게이트/26_델리게이트_타입_+=_-+_연산자.md)
+27. [C# 클래스 확장 (타입 유형 확장) : 콜백 메서드와 델리게이트](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄱ_델리게이트/27_콜백_메서드.md)
+28. [C# 클래스 확장 (타입 유형 확장) : 콜백 메서드를 이용한 선택 정렬 알고리즘](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄱ_델리게이트/28_선택_정렬_알고리즘.md)
+29. [C# 클래스 확장 (타입 유형 확장) : 클래스 타입 정렬 코드, 클래스 배열 초기화](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄱ_델리게이트/29_클래스_정렬_배열_초기화.md)
+30. [C# 클래스 확장 (타입 유형 확장) : 델리게이트와 object를 이용한 범용 정렬 코드](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄱ_델리게이트/30_object_활용_범용_정렬.md)
+31. [C# 클래스 확장 (타입 유형 확장) : 인터페이스 개념](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/31_MoreGrammar.md)
+32. [C# 클래스 확장 (타입 유형 확장) : 인터페이스의 상속 활용](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/32_MoreGrammar.md)
+33. [C# 클래스 확장 (타입 유형 확장) : 인터페이스를 이용한 콜백 구현](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/33_MoreGrammar.md)
+34. [C# 클래스 확장 (타입 유형 확장) : IEnumerable 인터페이스](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/34_MoreGrammar.md)
+35. [C# 클래스 확장 (타입 유형 확장) : 인터페이스를 사용한 느슨한 결합](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/35_MoreGrammar.md)
 > [목차](#목차)
 ---
 
