@@ -83,17 +83,17 @@
 ---
 
 ## 4장 객체지향 문법 - 구조체, 열거형, readonly, constant, event, indexer
-36. [C# 클래스 확장 (타입 유형 확장) : 구조체 개념](./Contents/Chapter_04_OOP/36_MoreGrammar.md)
-37. [C# 클래스 확장 (타입 유형 확장) : 깊은 복사와 얕은 복사](./Contents/Chapter_04_OOP/37_MoreGrammar.md)
-38. [C# 클래스 확장 (타입 유형 확장) : ref 예약어](./Contents/Chapter_04_OOP/38_MoreGrammar.md)
-39. [C# 클래스 확장 (타입 유형 확장) : out 예약어](./Contents/Chapter_04_OOP/39_MoreGrammar.md)
-40. [C# 클래스 확장 (타입 유형 확장) : 열거형 기본](./Contents/Chapter_04_OOP/40_MoreGrammar.md)
-41. [C# 클래스 확장 (타입 유형 확장) : 열거형 Flags](./Contents/Chapter_04_OOP/41_MoreGrammar.md)
-42. [C# 클래스 확장 (멤버 유형 확장) : 읽기 전용 필드 (readonly)](./Contents/Chapter_04_OOP/42_MoreGrammar.md)
-43. [C# 클래스 확장 (멤버 유형 확장) : 상수 (constant)](./Contents/Chapter_04_OOP/43_MoreGrammar.md)
-44. [C# 클래스 확장 (멤버 유형 확장) : event EventHandler](./Contents/Chapter_04_OOP/44_MoreGrammar.md)
-45. [C# 클래스 확장 (멤버 유형 확장) : 인덱서](./Contents/Chapter_04_OOP/45_MoreGrammar.md)
-46. [C# 클래스 확장 (멤버 유형 확장) : 정리, 문맥예약어](./Contents/Chapter_04_OOP/46_lastly.md)
+36. [C# 클래스 확장 (타입 유형 확장) : 구조체 개념](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄷ_유형_확장/36_MoreGrammar.md)
+37. [C# 클래스 확장 (타입 유형 확장) : 깊은 복사와 얕은 복사](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄷ_유형_확장/37_MoreGrammar.md)
+38. [C# 클래스 확장 (타입 유형 확장) : ref 예약어](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄷ_유형_확장/38_MoreGrammar.md)
+39. [C# 클래스 확장 (타입 유형 확장) : out 예약어](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄷ_유형_확장/39_MoreGrammar.md)
+40. [C# 클래스 확장 (타입 유형 확장) : 열거형 기본](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄷ_유형_확장/40_MoreGrammar.md)
+41. [C# 클래스 확장 (타입 유형 확장) : 열거형 Flags](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄷ_유형_확장/41_MoreGrammar.md)
+42. [C# 클래스 확장 (멤버 유형 확장) : 읽기 전용 필드 (readonly)](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄷ_유형_확장/42_MoreGrammar.md)
+43. [C# 클래스 확장 (멤버 유형 확장) : 상수 (constant)](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄷ_유형_확장/43_MoreGrammar.md)
+44. [C# 클래스 확장 (멤버 유형 확장) : event EventHandler](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄷ_유형_확장/44_MoreGrammar.md)
+45. [C# 클래스 확장 (멤버 유형 확장) : 인덱서](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄷ_유형_확장/45_MoreGrammar.md)
+46. [C# 클래스 확장 (멤버 유형 확장) : 정리, 문맥예약어](./Contents/Chapter_04_객체_지향_프로그래밍/ㅁ_클래스_확장/ㄷ_유형_확장/46_lastly.md)
 > [목차](#목차)
 ---
 
