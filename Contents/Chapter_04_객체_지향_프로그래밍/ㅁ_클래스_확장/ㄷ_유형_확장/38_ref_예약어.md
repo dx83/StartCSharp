@@ -33,7 +33,7 @@ static void Main(string[] args)
     Console.WriteLine("v1: X = " + v1.x + ", Y = " + v1.y); // v1: X = 7, Y = 14
 }
 ```
-<img src="./Images/4_14.png" width="600"/>
+<img src="../../Images/4_14.png" width="600"/>
 
 - ref를 사용하게 되면 메서드의 vt 변수가 호출 측의 v1 변수와 동일한 주소를 가리키게 된다.
 <br>
@@ -57,7 +57,7 @@ static void Main(string[] args)
     Console.WriteLine("pt1: X = " + pt1.x + ", Y = " + pt1.y); // pt1: X = 7, Y = 14
 }
 ```
-<img src="./Images/4_15.png" width="400"/>
+<img src="../../Images/4_15.png" width="400"/>
 
 - 얕은 복사와 동일한 결과를 보이므로 일반적인 예제로 그 차이를 느낄 수 없다.
 <br>
@@ -96,13 +96,13 @@ static void Main(string[] args)
 <br>
 
 ▼ Change1 메서드 호출    
-<img src="./Images/4_16.png" width="700"/>
+<img src="../../Images/4_16.png" width="700"/>
 - 참조값이 또 다른 메모리에 복사되어 전달
 - 메서드 내의 new 메모리 할당이 원본 pt1 변수에 영향을 미치지 않는다.
 <br>
 
 ▼ Change2 메서드 호출    
-<img src="./Images/4_17.png" width="700"/>
+<img src="../../Images/4_17.png" width="700"/>
 - pt1 변수의 스택 주솟값이 직접 전달
 - 메서드 내의 new 메모리 할당이 원본 pt1 변수에도 반영된다.
 <br>
