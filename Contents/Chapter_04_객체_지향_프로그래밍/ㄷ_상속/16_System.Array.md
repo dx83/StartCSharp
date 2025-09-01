@@ -46,7 +46,7 @@ namespace ConsoleApp1
             int[] intArray = new int[] { 5, 4, 3, 2, 1, 0 };
             OutputArrayInfo(intArray);
 
-            OutputArrayElements("원본 inArray", intArray);
+            OutputArrayElements("원본 intArray", intArray);
             Array.Sort(intArray);    // Sort 정적 메서드
             OutputArrayElements("Array.Sort 후 intArray", intArray);
 
