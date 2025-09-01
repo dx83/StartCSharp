@@ -46,7 +46,7 @@ class Program
 
 <br>
 
-▼ string 참조 타압의 Equals 재정의
+▼ string 참조 타압의 Equals 재정의 : 주소가 아닌 소유하고 있는 값을 비교
 ```csharp
 string txt1 = new string(new char[] { 't', 'e', 'x', 't' });
 string txt2 = new string(new char[] { 't', 'e', 'x', 't' });
