@@ -26,22 +26,18 @@ class Book
     decimal isbn13;
     string author;
 
-    //public Book() : this(string.Empty) {}           // 매개변수가 1개인 생성자 호출
+`   // 다음 각 생성자는 매개 변수 3개인 생성자를 호출한다.
+    public Book2() : this(string.Empty, 0, string.Empty) { }
+    public Book2(string title) : this(title, 0, string.Empty) { }
+    public Book2(string title, decimal isbn13) : this(title, isbn13, string.Empty) { }
 
-    public Book(string title) : this(title, 0) { }    // 매개변수가 2개인 생성자 호출
-
-    // 매개변수가 3개인 생성자 호출
-    public Book(string title, decimal isbn13) : this(title, isbn13, string.Empty) { }
-
-    // 초기화 코드를 하나의 생성자에서 처리
-    public Book(string title, decimal isbn13, string author)
+    // 이 생성자에서 초기화 처리
+    public Book2(string title, decimal isbn13, string author)  
     {
         this.title = title;
         this.isbn13 = isbn13;
         this.author = author;
     }
-
-    public Book() : this(string.Empty, 0, string.Empty) { }    // 매개변수가 3개인 생성자 호출
 }
 ```
 - this를 사용해 또 다른 생성자를 호출하는 구문을 사용함으로써 초기화 관련 코드를 하나의 메서드 내에서 처리한다.
