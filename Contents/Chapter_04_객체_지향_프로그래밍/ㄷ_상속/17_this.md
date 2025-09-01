@@ -27,12 +27,12 @@ class Book
     string author;
 
 `   // 다음 각 생성자는 매개 변수 3개인 생성자를 호출한다.
-    public Book2() : this(string.Empty, 0, string.Empty) { }
-    public Book2(string title) : this(title, 0, string.Empty) { }
-    public Book2(string title, decimal isbn13) : this(title, isbn13, string.Empty) { }
+    public Book() : this(string.Empty, 0, string.Empty) { }
+    public Book(string title) : this(title, 0, string.Empty) { }
+    public Book(string title, decimal isbn13) : this(title, isbn13, string.Empty) { }
 
     // 이 생성자에서 초기화 처리
-    public Book2(string title, decimal isbn13, string author)  
+    public Book(string title, decimal isbn13, string author)  
     {
         this.title = title;
         this.isbn13 = isbn13;
