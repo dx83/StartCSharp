@@ -5,7 +5,7 @@ class Person
 // ---- 생략 ----
 }
 
-delegate bool CompareDelegate(object grg1, object arg2);    // object 인자 2개
+delegate bool CompareDelegate(object arg1, object arg2);    // object 인자 2개
 
 class SortObject
 {
