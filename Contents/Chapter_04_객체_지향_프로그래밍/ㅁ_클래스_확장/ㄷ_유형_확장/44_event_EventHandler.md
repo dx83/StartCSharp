@@ -39,7 +39,7 @@ class PrimeGenerator
     // 콜백 메서드를 삭제
     public void RemoveDelegate(PrimeDelegate callback)
     {
-        callback = Delegate.Remove(callbacks, callback) as PrimeDelegate;
+        callbacks = Delegate.Remove(callbacks, callback) as PrimeDelegate;
     }
 
     // 주어진 수까지 루프를 돌면서 소수가 발견되면 콜백 메서드 호출
