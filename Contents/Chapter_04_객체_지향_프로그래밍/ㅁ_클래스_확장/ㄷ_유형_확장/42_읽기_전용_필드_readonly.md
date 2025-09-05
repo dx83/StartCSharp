@@ -61,15 +61,13 @@ Console.WriteLine(pt2.X + ", " + pt2.Y);    // 6, 11
 ```csharp
 public class Point
 {
-    int x, y;
-
     public readonly int X;
     public readonly int Y;
 
     public Point(int x, int y)
     {
-        this.x = x;
-        this.y = y;
+        this.X = x;
+        this.Y = y;
     }
 }
 ```
