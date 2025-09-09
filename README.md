@@ -99,7 +99,7 @@
 
 ## 5장 C# 1.0 완성하기
 47. [구문 : 전처리기 지시문, 지역 변수 유효 범위](./Contents/Chapter_05_CSharp1.0/47_전처리기_지시문_지역_변수_범위.md)
-48. [구문 : 리터럴_](./Contents/Chapter_05_CSharp1.0/48_.md)
+48. [구문 : 리터럴에 적용되는 타입, 특성(Attribute)](./Contents/Chapter_05_CSharp1.0/48_리터럴의_타입_특성_(Attribute).md)
 
 > [목차](#목차)
 ---
